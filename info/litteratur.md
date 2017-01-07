@@ -2,6 +2,8 @@
 
 ## Litteratur
 
+-*(versjon 07.01.2017 - noen suppleringer kan komme)*
+
 ### Om infrastrukturer
 
 - [Geografisk infrastruktur][1]
