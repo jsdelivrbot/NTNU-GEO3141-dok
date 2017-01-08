@@ -34,6 +34,42 @@ Tidspunkt (foreløpig - må verifiseres):
 - tirsdag 23. mai
 - onsdag 24. mai
 
+## Blackboard Collaborate
+
+Blackboard har et verktøy for nettmøter som vi kan bruke til samtaler, diskusjon og veiledning over nett. Så med tanke på dere som er nettstudenter har vi satt opp noen møtetidspunkt i Collaborate:
+
+- tirsdager kl. 21:00-22:00. "Møterommet" i Collaborate er åpent for alle. Vanligvis vil det ikke være noen lærer her, men dette er tenkt som en møteplass der dere kan diskutere fagstoff og samarbeide.
+
+- fredager kl. 9:15-11:00. Dette er en drop-in-sesjon der du kan få kontakt med faglærer. Jeg (Sverre) vil holde sesjonen åpen i denne tiden. Her kan du få hjelp med faglige spørsmål, og kan f.eks. vise prosedyrer i programvare ved å dele skjermen min.
+
+Se nærmere om bruken av Collaborate her:
+
+- [Blackboard help](https://en-us.help.blackboard.com/Collaborate/Ultra/Participant/010_Get_Started/Start_Here_With_The_Basics!)
+
+Jeg har satt opp møtetidspunkt for januar. Hvis dette fungerer bra, så setter vi opp nye møter, eller gjør noen endringer.
+
+## Referansegruppe
+
+Studentene i gruppa skal
+
+- ha løpende dialog med alle emnets studenter og representere studentene i referansegruppemøter.
+- ​representere alle studentene i emnet.
+- skrive referansegrupperapport med forslag til tiltak, som sendes emneansvarlig.
+
+Medlemmer
+- NN
+- NN
+- NN
+
+Møtetidspunkt
+- mandag 16.01 kl. 11:30-12:00
+- torsdag 2.03 kl. 9:15-9:45
+- torsdag 4.05 kl. 9:15-9:45
+
+Se nærmere om referansegrupper her:
+
+- [Referansegruppe - for studenter](https://innsida.ntnu.no/wiki/-/wiki/Norsk/Referansegruppe+-+for+studenter)
+
 ## Emnelærere
 
 - [Sverre Stikbakke](https://www.ntnu.no/ansatte/sverre.stikbakke)

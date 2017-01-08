@@ -2,13 +2,36 @@
 
 ## Målsetting
 
+- Få en viss oversikt over opplegget for emnet.
+- Lære om hvordan internett virker.
+- Bli kjent med ArcGIS for Server.
+
 ## Aktiviteter
+
+- Lese innledende stoff om den geografiske infrastrukturen
+- Lese/se videoer om internett
+- [Ukeoppgave](ukeoppgave-internett-quiz.html): Lage spørsmål til quiz på torsdag
 
 ## Samling på mandag
 
+- Orientering om emnet og undervisningsopplegg
+- Intro-forelesning om infrastruktur
+- Intro-forelesning om internett
+
 ## Samling på torsdag
 
+- Quiz
+- Intro-forelesning om ArcGIS for server
+- Presentasjon av mappeoppgave 1
+
 ## Ressurser
+
+### Geografisk infrastruktur
+
+- [Geografisk infrastruktur][1]
+- [Rammeverksdokumentet, kap 1-6][2]
+
+### Teknisk infrastruktur - internett
 
 - [Gratuler med dagen, internett](http://www.digi.no/artikler/gratuler-med-dagen-internett/287891)
 - [Slik vokste «internett» fram til Norge kom med](http://www.digi.no/artikler/slik-vokste-internett-fram-til-norge-kom-med/366838)
@@ -24,3 +47,11 @@
   - [The Internet: HTTP and HTML](https://www.youtube.com/watch?v=kBXQZMmiA4s&index=5&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7)
   - [The Internet: Encryption & Public Keys](https://www.youtube.com/watch?v=ZghMPWGXexs&index=6&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7)
   - [The Internet: Cybersecurity & Crime](https://www.youtube.com/watch?v=AuYNXgO_f3Y&index=7&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7)
+
+### Internett-protokoller
+
+- [TCP/IP-modellen](http://www.slideshare.net/niket7861/tcpip-21765303)
+- [HTTP-protokollen](http://www.slideshare.net/ChuongMai/http-protocol-basic)
+
+[1]:https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/
+[2]:https://www.geonorge.no/globalassets/geonorge2/veiledere/rammeverk2012_11_28.pdf

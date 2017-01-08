@@ -2,7 +2,7 @@
 
 ## Litteratur
 
--*(versjon 07.01.2017 - noen suppleringer kan komme)*
+- *(versjon 07.01.2017 - noen suppleringer kan komme)*
 
 ### Om infrastrukturer
 
@@ -29,8 +29,8 @@
   - [The Internet: Encryption & Public Keys](https://www.youtube.com/watch?v=ZghMPWGXexs&index=6&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7)
   - [The Internet: Cybersecurity & Crime](https://www.youtube.com/watch?v=AuYNXgO_f3Y&index=7&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7)  
   ..
-- [TCP/IP-modellen]()
-- [HTTP-protokollen]()
+- [TCP/IP-modellen](http://www.slideshare.net/niket7861/tcpip-21765303)
+- [HTTP-protokollen](http://www.slideshare.net/ChuongMai/http-protocol-basic)
 
 ### Modellering og spesifikasjon av geografisk informasjon
 
