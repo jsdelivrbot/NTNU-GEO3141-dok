@@ -30,7 +30,7 @@ make_entries() {
 }
 
 
-printf '%s\n\n' '# GEO2311 Geografisk informasjonsbehandling Høst 2016'\
+printf '%s\n\n' '# GEO3141 Infrastrukturer for stedfestet informasjon Vår 2017'\
   > "${INDEXFILE}"
 
 
