@@ -30,4 +30,4 @@ Uke |Startdato |Tema |Ansvar
 16 |18.04 |Tjenesteleveranser - å sette det hele sammen |Erling Onstein
 17 |24.04 |Oppsummering - hva er egentlig en infrastruktur for stedfestet informasjon? |SS
 
-- *(10.01.2017 - Endret tittel på gjesteforelesning i uke 9)
+- *(10.01.2017 - Endret tittel på gjesteforelesning i uke 9)*
