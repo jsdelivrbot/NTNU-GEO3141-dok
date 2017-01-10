@@ -1,6 +1,6 @@
 # GEO3141 Infrastrukturer for stedfestet informasjon
 
-- *(versjon: 07.01.2017 - endringer kan komme)*
+- *(versjon: 10.01.2017 - endringer kan komme)*
 
 ## Emneplan for våren 2017
 
@@ -29,3 +29,5 @@ Uke |Startdato |Tema |Ansvar
 15 |--- |Påske
 16 |18.04 |Tjenesteleveranser - å sette det hele sammen |Erling Onstein
 17 |24.04 |Oppsummering - hva er egentlig en infrastruktur for stedfestet informasjon? |SS
+
+- *(10.01.2017 - Endret tittel på gjesteforelesning i uke 9)
