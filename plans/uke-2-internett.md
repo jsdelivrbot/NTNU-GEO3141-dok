@@ -1,4 +1,6 @@
 # GEO3141 - Vår 2017 - uke 2
+---
+# Internett og ArcGIS for Server
 
 ## Målsetting
 
@@ -22,7 +24,15 @@
 
 - Quiz
 - Intro-forelesning om ArcGIS for server
-- Presentasjon av mappeoppgave 1
+- Presentasjon av mappeoppgave 1 (utsettes til mandag)
+
+## Ukeoppgave WMS-tjeneste på ArcGIS server
+
+- [Arbeidsgang - oversikt](docs/intro-WMS-AGS.pdf)
+- [Oppgavetekst](docs/ukeoppgave-ArcGISforServer.pdf)
+- [Lisensfil for ArcGIS server](docs/ArcGISGISServerAdvanced_ArcGISServer_492508.zip)
+- [Datasett](docs/horten-bygning.gdb.zip)
+- [Opptak/instruksjon fra 2016](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/15.01/2142067/GEO3141_-_Ukeoppgave_WMS_-_demo_-_20160115_135500_39.html)
 
 ## Presentasjoner og opptak
 
@@ -60,5 +70,12 @@ Dato |Tema |Format
 - [TCP/IP-modellen](http://www.slideshare.net/niket7861/tcpip-21765303)
 - [HTTP-protokollen](http://www.slideshare.net/ChuongMai/http-protocol-basic)
 
+### ArcGIS Server
+
+- [ArcGIS Server](http://server.arcgis.com/en/server/)
+- [What is ArcGIS Server?](http://server.arcgis.com/en/server/latest/get-started/windows/what-is-arcgis-for-server-.htm)
+- [Tutorial: Publishing a WMS service](http://server.arcgis.com/en/server/latest/get-started/windows/tutorial-publishing-a-wms-service.htm)
+
 [1]:https://www.geonorge.no/Geodataarbeid/geografisk-infrastruktur/
 [2]:https://www.geonorge.no/globalassets/geonorge2/veiledere/rammeverk2012_11_28.pdf
+---

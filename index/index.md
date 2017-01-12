@@ -9,8 +9,6 @@
 ## Ukeplaner
 - [uke-2-internett](./uke-2-internett.html)
 
-## Presentasjoner og opptak
-
 ## Ukeoppgaver, notater m.m.
 - [README](./README.html)
 - [ukeoppgave-internett-quiz](./ukeoppgave-internett-quiz.html)
@@ -18,9 +16,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-10 11:50:26 +0100 |Sverre Stikbakke |emneplan-justering - uke 9
+- 2017-01-12 11:50:33 +0100 |Sverre Stikbakke |ukeoppgave ArcGIS Server
 ## Tidligere versjoner
 
+- [2017-01-10 11:50:29 +0100 |Sverre Stikbakke |emneplan-justering - uke 9](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/8453ac436fe1d0f8d0721e5946e05f10e0798f72/)
 - [2017-01-10 11:46:58 +0100 |Sverre Stikbakke |emneplan-justering - uke 9](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/c3ac6c39eeb08bc44d74a47c80428e816b1e4d1d/)
 - [2017-01-10 11:43:17 +0100 |Sverre Stikbakke |emneplan-justering - uke 9](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/c6d007a35354b282a4fb7e0bc9dca022b31e610b/)
 - [2017-01-09 19:25:44 +0100 |Sverre Stikbakke |uke 2 mandag](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b816d7435f1e7e63f57f5369dff2ad0bc3649d4f/)

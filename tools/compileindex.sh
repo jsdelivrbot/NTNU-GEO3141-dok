@@ -36,7 +36,7 @@ printf '%s\n\n' '# GEO3141 Infrastrukturer for stedfestet informasjon Vår 2017'
 
 make_entries "${INFO}" '## Informasjon om emnet' "${INDEXFILE}"
 make_entries "${PLANS}" '## Ukeplaner' "${INDEXFILE}"
-make_entries "${PRESENTATIONS}" '## Presentasjoner og opptak' "${INDEXFILE}"
+# make_entries "${PRESENTATIONS}" '## Presentasjoner og opptak' "${INDEXFILE}"
 make_entries "${NOTES}" '## Ukeoppgaver, notater m.m.' "${INDEXFILE}"
 make_entries "${ASSIGNMENTS}" '## Obligatoriske oppgaver' "${INDEXFILE}"
 
