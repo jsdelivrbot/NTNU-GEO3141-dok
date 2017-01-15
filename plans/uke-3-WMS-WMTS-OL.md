@@ -1,0 +1,43 @@
+# GEO3141 - Vår 2017 - uke 3
+---
+# WMS, WMTS og Open Layers
+
+## Målsetting
+
+- Lage egen WMS-tjeneste og bruke denne i Open Layers-kart.
+- Få dypere forståelse for WMTS og hva man må tenke over når WMTS-tjenester skal opprettes.
+
+## Samling på mandag
+
+- Kort om feilmeldinger i ArcGIS for Server
+- Repetisjon/demo av Open Layers brukt mot WMS-tjeneste på copernicus.
+- Presentasjon av mappeoppgave 1
+- [Ukeoppgave WMS-kart i Open Layers](ukeoppgave-WMS-kart-OL.html)
+
+## Samling på torsdag
+
+- Forelesning om WMTS
+  - Hvordan opprette tilematrix - teori og demonstrasjon
+- Open Layers
+  - bruk av WMTS-tjenester
+  - håndtering av ulike projeksjoner
+  - bruk av transformasjonsbibliotek
+- Ukeoppgave WMTS-kart i Open Layers
+
+## Teori
+
+Dette bør leses:
+
+- [WMS-veileder fra Norge Digitalt (repetisjon fra GEO2311)][1]
+- [WMTS-spesifikasjonen fra OGC:](http://www.opengeospatial.org/standards/wmts)  
+  - Foreword
+  - Introduction
+  - Ch. 4: Terms and definitions
+  - Ch. 5: Conventions
+  - Ch. 6: WMTS Overview - svært viktig
+  - Ch. 7.2: Tile
+  - Ch. 7.3: Featureinfo
+
+---
+
+[1]:https://www.geonorge.no/Geodataarbeid/Levere-kartdata/veiledere/
