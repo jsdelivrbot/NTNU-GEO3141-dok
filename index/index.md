@@ -5,6 +5,7 @@
 - [litteratur](./litteratur.html)
 - [mappeoppgaver](./mappeoppgaver.html)
 - [om-emnet](./om-emnet.html)
+- [programvare](./programvare.html)
 
 ## Ukeplaner
 - [uke-2-internett](./uke-2-internett.html)
@@ -18,9 +19,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-16 13:47:13 +0100 |Sverre Stikbakke |Uke 3 opptak mandag
+- 2017-01-16 14:08:48 +0100 |Sverre Stikbakke |Uke 3 opptak mandag
 ## Tidligere versjoner
 
+- [2017-01-16 13:47:19 +0100 |Sverre Stikbakke |Uke 3 opptak mandag](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/693c63331d58e71863f6f7aa5d641d71b40bed1e/)
 - [2017-01-16 00:56:12 +0100 |Sverre Stikbakke |Uke 3](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b15e6f73a2118c5c4b5358cbf41e9d6d3e92e076/)
 - [2017-01-12 20:52:22 +0100 |Sverre Stikbakke |ArcGIS Server-opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/22d401ca5a4db25b49a64eb951b450c32ec2d9ed/)
 - [2017-01-12 11:50:36 +0100 |Sverre Stikbakke |ukeoppgave ArcGIS Server](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/98ee623424e1c2c8a1bba90ffc01c5c06aafa25e/)

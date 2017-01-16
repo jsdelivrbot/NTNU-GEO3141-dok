@@ -6,6 +6,8 @@ I dette emnet vil du bli kjent med begrepet infrastruktur.  Infrastruktur er et 
 
 - [Litteraturlista](litteratur.md) gir en god oversikt over hvilke temaer som inngår i emnet. Den er satt opp tematisk og viser ikke nødvendigvis i hvilken rekkefølge vi skal gå igjennom stoffet. Lista er ganske omfattende, så det er ikke meningen at alt under hvert punkt skal leses i detalj. Ukeplanene vil gi nærmerere beskrivelse av hva som er forventet.
 
+- [Programvare](programvare.html) gir oversikt over programvare som brukes i emnet.
+
 - [Emneinnholdet](index.html) vil bli organisert ut fra ukeplaner. Ukeplanene vil inneholde faglig målsetting, referanser til lærestoff og beskrivelse av aktiviteter.
 
 - [Emneplanen](emneplan.md) har ukesvis oversikt over når temaene skal behandles.
