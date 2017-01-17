@@ -3,7 +3,7 @@
 <head>
     <title>ukeoppgave-internett-quiz</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
     <style>
 
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -164,18 +164,26 @@ Og så tror vi at dette er en veldig god måte å lære på.
         <!-- generated html -->
 
     </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.0.1/markdown-it.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.min.js">
     </script>
-    <script type="text/javascript" src="script/markdown-it-link-target.min.js">
+    <script type="text/javascript" src="script/markdown-it-link-attributes.js">
     </script>
     <script>
-        var md = markdownit();
+        var md = markdownit({
+          html: true,
+          linkify: true,
+          breaks: true
+        });
+        md.use(markdownitLinkAttributes, {
+          target: '_blank',
+          rel: 'noopener'
+        });
         var markdown = document.getElementById('mdcontent');
         document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js">
     </script>
     <script>
         hljs.initHighlightingOnLoad();

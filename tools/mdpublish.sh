@@ -50,7 +50,7 @@ SLIDES='../slides/*.md'
 
 # defaults
 TEMPLATE='notes.html'
-CSS='ntnu-bb.css'
+CSS='uke-46.css'
 
 # variations
 SLIDES_TEMPLATE='slides.html'

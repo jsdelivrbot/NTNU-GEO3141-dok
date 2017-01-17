@@ -3,7 +3,7 @@
 <head>
     <title>index</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
     <style>
 
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -149,9 +149,10 @@ table tr:nth-child(2n-2) td {
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-17 10:59:16 +0100 |Sverre Stikbakke |Programvare - FME
+- 2017-01-17 15:21:59 +0100 |Sverre Stikbakke |mdpublish parametre
 ## Tidligere versjoner
 
+- [2017-01-17 10:59:19 +0100 |Sverre Stikbakke |Programvare - FME](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b59925578ecf45796a426ecc8cd0dc578f3e8767/)
 - [2017-01-17 10:23:29 +0100 |Sverre Stikbakke |Programvare - FME](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/d608a397bcb5fe11bdb1606a7707ee042b458237/)
 - [2017-01-17 10:09:28 +0100 |Sverre Stikbakke |Programvare - FME](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/17b7e2fee7800c7eac52674ab373b78cef854320/)
 - [2017-01-16 14:08:53 +0100 |Sverre Stikbakke |Uke 3 opptak mandag](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/f7a8806389bea6dbdb30dca95ccdfa46cf490385/)
@@ -179,18 +180,26 @@ table tr:nth-child(2n-2) td {
         <!-- generated html -->
 
     </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.0.1/markdown-it.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.min.js">
     </script>
-    <script type="text/javascript" src="script/markdown-it-link-target.min.js">
+    <script type="text/javascript" src="script/markdown-it-link-attributes.js">
     </script>
     <script>
-        var md = markdownit();
+        var md = markdownit({
+          html: true,
+          linkify: true,
+          breaks: true
+        });
+        md.use(markdownitLinkAttributes, {
+          target: '_blank',
+          rel: 'noopener'
+        });
         var markdown = document.getElementById('mdcontent');
         document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js">
     </script>
     <script>
         hljs.initHighlightingOnLoad();

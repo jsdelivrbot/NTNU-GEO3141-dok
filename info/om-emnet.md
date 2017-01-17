@@ -4,13 +4,13 @@
 
 I dette emnet vil du bli kjent med begrepet infrastruktur.  Infrastruktur er et vidt begrep, men her ser vi på det innenfor rammen av stedfestet informasjon. Stedfestet informasjon er et ganske generelt begrep, og vi bruker ofte begrepene geografiske data eller geodata i stedet.
 
-- [Litteraturlista](litteratur.md) gir en god oversikt over hvilke temaer som inngår i emnet. Den er satt opp tematisk og viser ikke nødvendigvis i hvilken rekkefølge vi skal gå igjennom stoffet. Lista er ganske omfattende, så det er ikke meningen at alt under hvert punkt skal leses i detalj. Ukeplanene vil gi nærmerere beskrivelse av hva som er forventet.
+- [Litteraturlista](litteratur.html) gir en god oversikt over hvilke temaer som inngår i emnet. Den er satt opp tematisk og viser ikke nødvendigvis i hvilken rekkefølge vi skal gå igjennom stoffet. Lista er ganske omfattende, så det er ikke meningen at alt under hvert punkt skal leses i detalj. Ukeplanene vil gi nærmerere beskrivelse av hva som er forventet.
 
 - [Programvare](programvare.html) gir oversikt over programvare som brukes i emnet.
 
 - [Emneinnholdet](index.html) vil bli organisert ut fra ukeplaner. Ukeplanene vil inneholde faglig målsetting, referanser til lærestoff og beskrivelse av aktiviteter.
 
-- [Emneplanen](emneplan.md) har ukesvis oversikt over når temaene skal behandles.
+- [Emneplanen](emneplan.html) har ukesvis oversikt over når temaene skal behandles.
 
 - [Emnebeskrivelsen](http://www.ntnu.no/studier/emner/GEO3141/2016/1#tab=omEmnet) gir en overordnet beskrivelse av emnet.
 
