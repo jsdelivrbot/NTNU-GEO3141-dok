@@ -7,7 +7,8 @@ Programvare |Kommentar|Info |Brukes til
 [Atom](https://atom.io/) |tillegg: Emmet|[Documetation](http://docs.emmet.io/) |tekstredigering (programkode)
 [GIT Bash](https://git-scm.com/) |fjern haken ved "GIT GUI here" |[Try GIT](https://try.github.io/) |filhåndtering, versjonskontroll, m.m.
 [Chrome nettleser](https://www.google.com/chrome/browser/desktop/index.html)| |[DevTools](https://developer.chrome.com/devtools) |For test og utvikling av websider
----|---|---|---|---
+--|--|--|--
+[ArcGIS Server 10.5](https://copernicus.hig.no:6443/arcgis/manager/) |Bruk VPN utenfor campus  |[Documentation](http://server.arcgis.com/en/documentation/) |Publisering av WMS- og WMTS-tjenester
 [ArcGIS 10.5](https://filesender.uninett.no/beta/?s=download&token=10f42e82-61a9-69e8-d7ce-f71f68750948) | |[Documentation](http://desktop.arcgis.com/en/documentation/) |GIS-program
 [PostgreSQL 9.5](https://filesender.uninett.no/beta/?s=download&token=aa13084c-a3ca-1aff-59bb-3ff0a52b2de9) | |[About](https://www.postgresql.org/about/) [Documentation](http://postgis.net/documentation/) [pgAdmin Main Window](https://www.pgadmin.org/docs/1.22/main.html)|pgAdmin, PostGIS geografisk database
 [QGIS](http://www.qgis.org/en/site/forusers/download.html) |Velg 64-bit |[Documentation](http://www.qgis.org/en/docs/index.html) |GIS-program
