@@ -19,9 +19,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-16 14:08:48 +0100 |Sverre Stikbakke |Uke 3 opptak mandag
+- 2017-01-17 10:09:25 +0100 |Sverre Stikbakke |Programvare - FME
 ## Tidligere versjoner
 
+- [2017-01-16 14:08:53 +0100 |Sverre Stikbakke |Uke 3 opptak mandag](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/f7a8806389bea6dbdb30dca95ccdfa46cf490385/)
 - [2017-01-16 13:47:19 +0100 |Sverre Stikbakke |Uke 3 opptak mandag](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/693c63331d58e71863f6f7aa5d641d71b40bed1e/)
 - [2017-01-16 00:56:12 +0100 |Sverre Stikbakke |Uke 3](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b15e6f73a2118c5c4b5358cbf41e9d6d3e92e076/)
 - [2017-01-12 20:52:22 +0100 |Sverre Stikbakke |ArcGIS Server-opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/22d401ca5a4db25b49a64eb951b450c32ec2d9ed/)
