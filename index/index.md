@@ -19,9 +19,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-17 15:30:23 +0100 |Sverre Stikbakke |mdpublish parametre
+- 2017-01-17 15:33:39 +0100 |Sverre Stikbakke |mdpublish parametre
 ## Tidligere versjoner
 
+- [2017-01-17 15:30:30 +0100 |Sverre Stikbakke |mdpublish parametre](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/58a738a27fea4017c7ca4d58961d78143ae073a7/)
 - [2017-01-17 15:22:04 +0100 |Sverre Stikbakke |mdpublish parametre](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/21f4b0969262ffc2645ec0949f90d30c9d11f763/)
 - [2017-01-17 10:59:19 +0100 |Sverre Stikbakke |Programvare - FME](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b59925578ecf45796a426ecc8cd0dc578f3e8767/)
 - [2017-01-17 10:23:29 +0100 |Sverre Stikbakke |Programvare - FME](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/d608a397bcb5fe11bdb1606a7707ee042b458237/)
