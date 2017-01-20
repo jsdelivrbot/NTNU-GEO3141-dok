@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>emneplan</title>
+    <title>notepad2meny</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
     <style>
@@ -128,39 +128,30 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO3141 Infrastrukturer for stedfestet informasjon
+# Notepad 2 mod
 
-- *(versjon: 10.01.2017 - endringer kan komme)*
+Notepad 2 mod er en modifisert versjon av tekstbehandleren Notepad 2 som igjen er laget for å være en erstatter for Windows Notepad.
 
-## Emneplan for våren 2017
+![kontekstmeny](./images/tools/notepad2logo.png)
 
-Denne oversikten viser temaene for de enkelte uker. Innhold og aktiviteter blir nærmere spesifisert i ukeplanene.
+Gode grunner for å bruke Notepad 2 mod:
 
-Uke |Startdato |Tema |Ansvar
---- | --- | --- | ---
-2 |09.01 |Teknisk infrastruktur: Internett, ArcGIS for Server |SS
-3 |16.01 |Visningstjenester: WMS, WMTS, Open Layers |SS
-4 |23.01 |Teknisk infrastruktur |IT-tjenesten v/ Jon Langseth
-5 |30.01 |Visningstjenester |NN
-- | - | - | -
-6 |06.02 |Modellering av geografisk informasjon: Standardisering |Erling Onstein
-7 |13.02 |Produktspesifikasjoner |Erling Onstein
-8 |20.02 |Etablering av geografiske databaser: PostGIS |SS
-9 |27.02 |GML, WFS |SS
-| |02.03 |ISO-standardisering, objektkataloger og eksempler på tjenester fra NVDB |Statens vegvesen v/ Knut Jetlund
-- | - | - | -
-10 |06.03 |Nedlastingstjenester: Geoserver |SS
-11 |13.03 |Norge digitalt: Nasjonal geodatastrategi |NN
-12 |20.03 |Norge Digitalt |SS
-| |23.03 |Parter i Norge Digitalt ved en av dem |NIBIO v/ Ingvild Nystuen
-13 |27.03 |Metadata og katalogtjenester |Erlig Onstein
-- | - | - | -
-14 |03.04 |Teknologileveranser til den geografiske infrastrukturen| NN
-15 |--- |Påske
-16 |18.04 |Tjenesteleveranser - å sette det hele sammen |Erling Onstein
-17 |24.04 |Oppsummering - hva er egentlig en infrastruktur for stedfestet informasjon? |SS
+- rask
+- håndtererer linjeskift på en god måte (viktig ved visning av filer)
+- har fargekoding av programkode for å gi god oversikt over strukturen i koden
+- har "code folding" - kan skjule deler av koden
 
-- *(10.01.2017 - Endret tittel på gjesteforelesning i uke 9)*
+Kontektsmeny vil si en meny som er tilpasset situasjonen (konteksten) du er i. For eksempel så kan menyen ha ulike valg avhengig av hvilken filtype du ser på. En type kontekstmeny kommer fram hvis du høyreklikker på en fil i en Windows-mappe.
+
+## Hvordan legge til Notepad2 som et valg i kontekstmenyen?
+
+- Notepad 2 mod må være installert
+- Høyreklikk på [notepad-meny.reg](./docs/notepad-meny.reg) og lagre filen på egen PC. Åpne deretter mappen der du har lagret den og klikk på filen. Du vil få en advarsel, men du kan kjøre denne filen (Innholdet i filen kan du se [her](./docs/notepad-meny.txt) - dette er kommandoer som legger til et menypunkt i kontekstmenyen).
+- høyreklikk på noen ulike filtyper og sjekk at du har valget Notepad2 på kontekstmenyen (Det skal normalt vises på alle filtyper).
+
+Slik kan kontekstmenyen se ut:
+
+![kontekstmeny](./images/tools/notepad2meny.png)
 
     </div>
     <div id="htmlcontent">

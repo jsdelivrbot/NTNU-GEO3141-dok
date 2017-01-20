@@ -2,7 +2,7 @@
 
 Programvare |Kommentar|Info |Brukes til
 --|--|--|--
-[Notepad 2 mod](https://xhmikosr.github.io/notepad2-mod/) | |[Screenshots](https://xhmikosr.github.io/notepad2-mod/screenshots) |tekstredigering (programkode m.m.)- raskt og lett program
+[Notepad 2 mod](https://xhmikosr.github.io/notepad2-mod/) |[Kontekstmeny](notepad2meny.html) |[Screenshots](https://xhmikosr.github.io/notepad2-mod/screenshots) |tekstredigering (programkode m.m.)- raskt og lett program
 [Notepad++](https://notepad-plus-plus.org/) | |[Features](https://notepad-plus-plus.org/features/) |tekstredigering (visning av XML-filer)
 [Atom](https://atom.io/) |tillegg: Emmet|[Documentation](http://docs.emmet.io/) |tekstredigering (programkode)
 [GIT Bash](https://git-scm.com/) |fjern haken ved "GIT GUI here" |[Try GIT](https://try.github.io/) |filhåndtering, versjonskontroll, m.m.

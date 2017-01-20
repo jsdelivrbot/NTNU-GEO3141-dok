@@ -23,12 +23,18 @@
   - håndtering av ulike projeksjoner
   - bruk av transformasjonsbibliotek
 - Ukeoppgave WMTS-kart i Open Layers
+  - [WMTS-dekningsområder](WMTS-intro.html)
+  - [WMTS: Opprette tjeneste](WMTS-opprette-tjeneste.html)
+  - [WMTS: Lage webkart i Open Layers](WMTS-lage-web-kart.html)
+
 
 ## Presentasjoner og opptak
 
 Dato |Tema |Format
 ---|---|---|---
-16.01 |Feilsituasjon på ArcGIS Server, Open Layers-mal, Mappeoppgave 1|[PDF](docs/ArcGISServer_feilmeldinger.pdf) [PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/16.01/2488800/GEO3141_-_Uke_3_-_intro_og_mappeoppgavepresentasjo_-_20170116_101013_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/16.01/2488800/GEO3141_-_Uke_3_-_intro_og_mappeoppgavepresentasjo_-_20170116_101013_36.html) 
+16.01 |Feilsituasjon på ArcGIS Server, Open Layers-mal, Mappeoppgave 1|[PDF](docs/ArcGISServer_feilmeldinger.pdf) [PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/16.01/2488800/GEO3141_-_Uke_3_-_intro_og_mappeoppgavepresentasjo_-_20170116_101013_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/16.01/2488800/GEO3141_-_Uke_3_-_intro_og_mappeoppgavepresentasjo_-_20170116_101013_36.html)
+19.01 |WMTS: Opprette tjeneste |[PDF](docs/WMTS-2311.pdf) [PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/19.01/2629800/GEO3141_-_WMTS_p_AGS_-_20170119_132349_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/19.01/2629800/GEO3141_-_WMTS_p_AGS_-_20170119_132349_36.html)
+|  |WMTS: Lage webkart |[PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/19.01/1083133/GEO3141_-_WMTS_-_Open_Layers_-_20170119_145508_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/19.01/1083133/GEO3141_-_WMTS_-_Open_Layers_-_20170119_145508_36.html)
 
 ## Teori
 

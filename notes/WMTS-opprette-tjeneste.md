@@ -17,7 +17,7 @@
 
 - Finn url for tjenesten:
 
-![Finn url for tjenesten](./images/arcgis/serviceurl.png)
+![Finn url for tjenesten](../images/arcgis/serviceurl.png)
 
 - Send getcapabilities-kall (#-tegn må byttes ut med og-tegn):
 
@@ -54,11 +54,11 @@ For andre typer data kan det være mer passende med mindre målestokker, f.eks. 
 
 - Gå inn på Manage services og din mappe i ArcGIS Server Manager
 
-![Finn url for tjenesten](./images/arcgis/manageservices.png)
+![Finn url for tjenesten](../images/arcgis/manageservices.png)
 
 - Velg __caching__. Det skal se ca. slik ut:
 
-![Finn url for tjenesten](./images/arcgis/tilingscheme.png)
+![Finn url for tjenesten](../images/arcgis/tilingscheme.png)
 
 - Øverst på siden: velg __Using tiles from a cache__.
 - Under __Tiling Scheme__, sett __Suggest__.
@@ -67,7 +67,7 @@ For andre typer data kan det være mer passende med mindre målestokker, f.eks. 
 - Origin er øverste venstre hjørne for __tilematrix__. Sett inn verdier for dette fra metadataene for WMS-tjenesten.
 - Trykk på __Save and Restart__. Legg merke til flis-symbolet som kommer opp til høyre for teksten (Map Service). Det viser at dette er en tjeneste med kartfliser.
 
-![Finn url for tjenesten](./images/arcgis/flissymbol.png)
+![Finn url for tjenesten](../images/arcgis/flissymbol.png)
 
 ### Administrere tjenesten fra ArcMap
 
