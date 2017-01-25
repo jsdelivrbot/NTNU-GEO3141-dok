@@ -11,6 +11,7 @@
 - [uke-2-internett](./uke-2-internett.html)
 - [uke-3-WMS-WMTS-OL](./uke-3-WMS-WMTS-OL.html)
 - [uke-4-teknisk-infrastruktur](./uke-4-teknisk-infrastruktur.html)
+- [uke-5-visningstjenester](./uke-5-visningstjenester.html)
 
 ## Ukeoppgaver, notater m.m.
 - [notepad2meny](./notepad2meny.html)
@@ -24,9 +25,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-25 13:03:13 +0100 |Sverre Stikbakke |oppdatert emneplan
+- 2017-01-25 13:15:07 +0100 |Sverre Stikbakke |uke 5
 ## Tidligere versjoner
 
+- [2017-01-25 13:03:18 +0100 |Sverre Stikbakke |oppdatert emneplan](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/832f4a9c4d1f01588340f32227b860ae8ea8c177/)
 - [2017-01-23 18:36:17 +0100 |Sverre Stikbakke |uke 4 - ooptak mandag](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/67645433c5215d755d47d582d313ae0b25c0f00a/)
 - [2017-01-20 11:41:58 +0100 |Sverre Stikbakke |uke 4-plan](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/2b64e100a7af96df9a64534eb9f0d122f35e6e13/)
 - [2017-01-17 15:33:45 +0100 |Sverre Stikbakke |mdpublish parametre](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/8ae44d0a7e9c2d07d54fb782e9b1a5653c6e9cd0/)
