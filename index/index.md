@@ -25,9 +25,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-25 13:15:07 +0100 |Sverre Stikbakke |uke 5
+- 2017-01-27 08:29:22 +0100 |Sverre Stikbakke |uke 4 -quiz-opptak
 ## Tidligere versjoner
 
+- [2017-01-25 13:15:14 +0100 |Sverre Stikbakke |uke 5](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/4fdff3340119ba7099d52ba807e4a727d4a42088/)
 - [2017-01-25 13:03:18 +0100 |Sverre Stikbakke |oppdatert emneplan](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/832f4a9c4d1f01588340f32227b860ae8ea8c177/)
 - [2017-01-23 18:36:17 +0100 |Sverre Stikbakke |uke 4 - ooptak mandag](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/67645433c5215d755d47d582d313ae0b25c0f00a/)
 - [2017-01-20 11:41:58 +0100 |Sverre Stikbakke |uke 4-plan](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/2b64e100a7af96df9a64534eb9f0d122f35e6e13/)
