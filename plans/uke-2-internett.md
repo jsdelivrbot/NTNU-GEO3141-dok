@@ -30,7 +30,7 @@
 
 - [Arbeidsgang - oversikt](docs/intro-WMS-AGS.pdf)
 - [Oppgavetekst](docs/ukeoppgave-ArcGISforServer.pdf)
-- [Lisensfil for ArcGIS server](docs/ArcGISGISServerAdvanced_ArcGISServer_492508.zip)
+- [Lisensfil for ArcGIS server](docs/ArcGISGISServerAdvanced_ArcGISServer_498136.zip)
 - [Datasett](docs/horten-bygning.gdb.zip)
 - [Opptak/instruksjon fra 2016](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/15.01/2142067/GEO3141_-_Ukeoppgave_WMS_-_demo_-_20160115_135500_39.html)
 
