@@ -10,7 +10,7 @@ Programvare |Kommentar|Info |Brukes til
 --|--|--|--
 [ArcGIS 10.5](https://filesender.uninett.no/beta/?s=download&token=10f42e82-61a9-69e8-d7ce-f71f68750948) | |[Documentation](http://desktop.arcgis.com/en/documentation/) |GIS-program
 [ArcGIS Server 10.5](https://copernicus.hig.no:6443/arcgis/manager/) |Bruk VPN utenfor campus  |[Documentation](http://server.arcgis.com/en/documentation/) |Publisering av WMS- og WMTS-tjenester
-|[Lisensfil for ArcGIS server](docs/ArcGISGISServerAdvanced_ArcGISServer_498136.zip) |Installeres på egen PC |[Ukeoppgave uke 2](uke-2-internett.html) |Nødvendig for å kunne lage geodatabase på copernicus
+|[Lisensfil for ArcGIS server](docs/ArcGISGISServerAdvanced_ArcGISServer_498386.zip) |Installeres på egen PC |[Ukeoppgave uke 2](uke-2-internett.html) |Nødvendig for å kunne lage geodatabase på copernicus
 [PostgreSQL 9.5](https://filesender.uninett.no/beta/?s=download&token=aa13084c-a3ca-1aff-59bb-3ff0a52b2de9) | |[About](https://www.postgresql.org/about/) [Documentation](http://postgis.net/documentation/) [pgAdmin Main Window](https://www.pgadmin.org/docs/1.22/main.html)|pgAdmin, PostGIS geografisk database
 [QGIS](http://www.qgis.org/en/site/forusers/download.html) |Velg 64-bit |[Documentation](http://www.qgis.org/en/docs/index.html) |GIS-program
 [FME Desktop](https://minside.hig.no/download.php?language=no_NO) | |[Desktop tour](https://www.safe.com/fme/fme-desktop/tour/) |Format/skjema-konvertering, SOSI m.m.

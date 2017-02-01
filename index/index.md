@@ -18,6 +18,8 @@
 - [README](./README.html)
 - [ukeoppgave-internett-quiz](./ukeoppgave-internett-quiz.html)
 - [ukeoppgave-WMS-kart-OL](./ukeoppgave-WMS-kart-OL.html)
+- [visningstjenester-utstrekning](./visningstjenester-utstrekning.html)
+- [WMTS-eksempel](./WMTS-eksempel.html)
 - [WMTS-intro](./WMTS-intro.html)
 - [WMTS-lage-web-kart](./WMTS-lage-web-kart.html)
 - [WMTS-opprette-tjeneste](./WMTS-opprette-tjeneste.html)
@@ -25,9 +27,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-01-31 09:44:06 +0100 |Sverre Stikbakke |Lisens ArcGIS Server
+- 2017-02-01 14:12:56 +0100 |Sverre Stikbakke |Om utstrekning - extent
 ## Tidligere versjoner
 
+- [2017-01-31 09:44:12 +0100 |Sverre Stikbakke |Lisens ArcGIS Server](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/122c044af49ba3a0a5f0bf99b27516731fb9af39/)
 - [2017-01-27 08:29:29 +0100 |Sverre Stikbakke |uke 4 -quiz-opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/39817327d0b1c740b8c946a2e1be9129bf68956b/)
 - [2017-01-25 13:15:14 +0100 |Sverre Stikbakke |uke 5](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/4fdff3340119ba7099d52ba807e4a727d4a42088/)
 - [2017-01-25 13:03:18 +0100 |Sverre Stikbakke |oppdatert emneplan](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/832f4a9c4d1f01588340f32227b860ae8ea8c177/)

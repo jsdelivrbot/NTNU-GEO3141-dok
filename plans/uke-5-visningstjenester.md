@@ -18,6 +18,19 @@
 - Ikke undervisning - emneansvarlig på kick-off samling for IV-fakultetet i Trondheim.
 - Gruppevis arbeid med mappeoppgave 1.
 
+## Aktuelle ressurser for mappeoppgave 1
+
+- [Ukeoppgave om WMS](uke-2-internett.html)
+- Ukeoppgave WMTS-kart i Open Layers
+  - [WMTS-dekningsområder](WMTS-intro.html)
+  - [WMTS: Opprette tjeneste](WMTS-opprette-tjeneste.html)
+  - [WMTS: Lage webkart i Open Layers](WMTS-lage-web-kart.html)
+- [Om utstrekning - extent](visningstjenester-utstrekning.html)
+- [WMTS-eksempel UTM sone 32](WMTS-eksempel.html)
+
+- Se ellers oppslag og forum-innlegg i emnerommet
+
+
 ## Presentasjoner og opptak
 
 Dato |Tema |Format
