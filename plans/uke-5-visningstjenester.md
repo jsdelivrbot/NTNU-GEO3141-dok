@@ -23,7 +23,7 @@
 - [Ukeoppgave om WMS](uke-2-internett.html)
 - Ukeoppgave WMTS-kart i Open Layers
   - [WMTS-dekningsområder](WMTS-intro.html)
-  - [WMTS: Opprette tjeneste](WMTS-opprette-tjeneste.html)
+  - [WMTS: Opprette tjeneste og hente ut metadata, bl.a. extent](WMTS-opprette-tjeneste.html)
   - [WMTS: Lage webkart i Open Layers](WMTS-lage-web-kart.html)
 - [Om utstrekning - extent](visningstjenester-utstrekning.html)
 - [WMTS-eksempel UTM sone 32](WMTS-eksempel.html)
