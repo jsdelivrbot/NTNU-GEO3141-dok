@@ -12,6 +12,7 @@
 - [uke-3-WMS-WMTS-OL](./uke-3-WMS-WMTS-OL.html)
 - [uke-4-teknisk-infrastruktur](./uke-4-teknisk-infrastruktur.html)
 - [uke-5-visningstjenester](./uke-5-visningstjenester.html)
+- [uke-6-modellering-standardisering](./uke-6-modellering-standardisering.html)
 
 ## Ukeoppgaver, notater m.m.
 - [notepad2meny](./notepad2meny.html)
@@ -27,9 +28,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-02-02 08:44:50 +0100 |Sverre Stikbakke |Om utstrekning - extent
+- 2017-02-03 10:24:12 +0100 |Sverre Stikbakke |Uke 6
 ## Tidligere versjoner
 
+- [2017-02-02 08:44:55 +0100 |Sverre Stikbakke |Om utstrekning - extent](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/ac5f3e3f9b61f1d72859438d051fbf3556eb929e/)
 - [2017-02-01 14:13:01 +0100 |Sverre Stikbakke |Om utstrekning - extent](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/75beaacd7ef0b4d00ab807036ee6c5b84286911f/)
 - [2017-01-31 09:44:12 +0100 |Sverre Stikbakke |Lisens ArcGIS Server](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/122c044af49ba3a0a5f0bf99b27516731fb9af39/)
 - [2017-01-27 08:29:29 +0100 |Sverre Stikbakke |uke 4 -quiz-opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/39817327d0b1c740b8c946a2e1be9129bf68956b/)
