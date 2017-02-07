@@ -12,4 +12,5 @@
 
 ## Samling på torsdag
 
-- Forelesning om Modellering av geografisk informasjon: Standardisering ved Erling Onstein.
+- NB: Start kl. 13:15:
+  - Forelesning om Modellering av geografisk informasjon: Standardisering ved Erling Onstein.
