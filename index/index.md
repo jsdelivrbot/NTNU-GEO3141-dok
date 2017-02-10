@@ -13,6 +13,7 @@
 - [uke-4-teknisk-infrastruktur](./uke-4-teknisk-infrastruktur.html)
 - [uke-5-visningstjenester](./uke-5-visningstjenester.html)
 - [uke-6-modellering-standardisering](./uke-6-modellering-standardisering.html)
+- [uke-7-produktspesifikasjoner](./uke-7-produktspesifikasjoner.html)
 
 ## Ukeoppgaver, notater m.m.
 - [notepad2meny](./notepad2meny.html)
@@ -29,9 +30,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-02-08 15:07:33 +0100 |Sverre Stikbakke |Uke 6 ukeoppgave
+- 2017-02-10 10:45:12 +0100 |Sverre Stikbakke |Uke 7
 ## Tidligere versjoner
 
+- [2017-02-08 15:07:39 +0100 |Sverre Stikbakke |Uke 6 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/fc8fea2f0d1e502fdcd01678a3471791f9a00607/)
 - [2017-02-07 16:14:43 +0100 |Sverre Stikbakke |Feilsøking](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/326e1b156dec97985221ec68e4d66ca019d6b761/)
 - [2017-02-03 10:24:22 +0100 |Sverre Stikbakke |Uke 6](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/5835a2eb5cd80f60666585a2a9fdddf3ec82cdff/)
 - [2017-02-02 08:44:55 +0100 |Sverre Stikbakke |Om utstrekning - extent](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/ac5f3e3f9b61f1d72859438d051fbf3556eb929e/)
