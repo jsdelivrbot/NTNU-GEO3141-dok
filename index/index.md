@@ -30,9 +30,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-02-14 11:15:45 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak
+- 2017-02-14 11:18:26 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak
 ## Tidligere versjoner
 
+- [2017-02-14 11:15:52 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/67efbf239351faaab543850870817d10bfdac2c4/)
 - [2017-02-10 10:53:25 +0100 |Sverre Stikbakke |Uke 6 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b76ae73538fddd3e9cf304d175bec5facf307727/)
 - [2017-02-10 10:45:18 +0100 |Sverre Stikbakke |Uke 7](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/6ec9dc543356e6a627bd6b55eec3382f0eadf453/)
 - [2017-02-08 15:07:39 +0100 |Sverre Stikbakke |Uke 6 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/fc8fea2f0d1e502fdcd01678a3471791f9a00607/)
