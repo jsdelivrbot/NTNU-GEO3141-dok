@@ -16,6 +16,7 @@ Programvare |Kommentar|Info |Brukes til
 [FME Desktop](https://minside.hig.no/download.php?language=no_NO) | |[Desktop tour](https://www.safe.com/fme/fme-desktop/tour/) |Format/skjema-konvertering, SOSI m.m.
 [PsTools](https://sosi.arkitektum.no/) |Nettsted |Innlogging - se forumet |Produktspesifikasjoner basert på SOSI objektkatalog
 [SPARX ENTERPRISE ARCHITECT](https://minside.hig.no/download.php?language=no_NO) | |Les activate-dokumentene |UML-modellering m.m.
+[GISTools for UML](https://arkitektum.atlassian.net/wiki/display/gistools/Installasjon+og+oppstart) |En utvidelse av Sparx Enterprise Architect |[Om GISTools](http://www.arkitektum.no/produkter/gistools-for-uml/) |Generere databaseskjema fra UML-modell
 
 
 --

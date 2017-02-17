@@ -19,6 +19,7 @@
 - [notepad2meny](./notepad2meny.html)
 - [README](./README.html)
 - [ukeoppgave-internett-quiz](./ukeoppgave-internett-quiz.html)
+- [ukeoppgave-PsTools-GISTools-PostGIS-FME](./ukeoppgave-PsTools-GISTools-PostGIS-FME.html)
 - [ukeoppgave-WMS-kart-OL](./ukeoppgave-WMS-kart-OL.html)
 - [utviklingstrategier](./utviklingstrategier.html)
 - [visningstjenester-utstrekning](./visningstjenester-utstrekning.html)
@@ -30,9 +31,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-02-14 11:18:26 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak
+- 2017-02-17 08:30:56 +0100 |Sverre Stikbakke |uke 7 WFS-opptak[F
 ## Tidligere versjoner
 
+- [2017-02-14 11:18:32 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/4b07b1b74ae96bd0685ed9832e2f635f172d1360/)
 - [2017-02-14 11:15:52 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/67efbf239351faaab543850870817d10bfdac2c4/)
 - [2017-02-10 10:53:25 +0100 |Sverre Stikbakke |Uke 6 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b76ae73538fddd3e9cf304d175bec5facf307727/)
 - [2017-02-10 10:45:18 +0100 |Sverre Stikbakke |Uke 7](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/6ec9dc543356e6a627bd6b55eec3382f0eadf453/)
