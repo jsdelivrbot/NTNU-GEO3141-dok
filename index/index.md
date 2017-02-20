@@ -14,6 +14,7 @@
 - [uke-5-visningstjenester](./uke-5-visningstjenester.html)
 - [uke-6-modellering-standardisering](./uke-6-modellering-standardisering.html)
 - [uke-7-produktspesifikasjoner](./uke-7-produktspesifikasjoner.html)
+- [uke-8-GML-WFS](./uke-8-GML-WFS.html)
 
 ## Ukeoppgaver, notater m.m.
 - [notepad2meny](./notepad2meny.html)
@@ -31,9 +32,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-02-17 08:31:13 +0100 |Sverre Stikbakke |uke 7 WFS-opptak
+- 2017-02-20 19:14:18 +0100 |Sverre Stikbakke |GML opptak
 ## Tidligere versjoner
 
+- [2017-02-17 08:31:19 +0100 |Sverre Stikbakke |uke 7 WFS-opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/444212d8ca004568cce18a01e40c9de4cef13d81/)
 - [2017-02-17 08:31:03 +0100 |Sverre Stikbakke |uke 7 WFS-opptak[F](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/0a459de481e024edf8479d8780ca98df1fb70c1e/)
 - [2017-02-14 11:18:32 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/4b07b1b74ae96bd0685ed9832e2f635f172d1360/)
 - [2017-02-14 11:15:52 +0100 |Sverre Stikbakke |Produktspesifikasjoner - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/67efbf239351faaab543850870817d10bfdac2c4/)
