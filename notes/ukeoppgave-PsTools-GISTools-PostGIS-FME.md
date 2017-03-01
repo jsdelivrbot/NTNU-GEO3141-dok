@@ -41,7 +41,7 @@ Linker for nedlasting ligger i programvaretabellen.
 
 ## Datafil
 
-- [AR5-data for Hjelmeland kommune](https://filesender.uninett.no/beta/?s=download&token=fefa6eac-6d94-5f37-a7d9-ed815cdff184)
+- [AR5-data for Hjelmeland kommune](https://filesender.uninett.no/beta/?s=download&token=9e313352-5bb6-914b-4a18-7e5686c15095)
 
 
 ## Arbeidsoppgaver

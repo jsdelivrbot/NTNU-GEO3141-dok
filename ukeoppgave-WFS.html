@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ukeoppgave-PsTools-GISTools-PostGIS-FME</title>
+    <title>ukeoppgave-WFS</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
     <style>
@@ -128,66 +128,63 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# Ukeoppgave for Modul 4 - GML og WFS - PSTools, GISTools, Postgis og FME
-
-***
-
+# Ukeoppgave om WFS - Oppsett og bruk av WFS i GeoServer
+---
 
 ## Mål for oppgaven
 
-Få erfaring og trening med å lage produktspesifikasjoner i PSTools, opprette databaseskjema i PostGIS i samsvar med dette og laste opp data i databasen.
+- Lære og få erfaring med oppsett av WFS-tjenester
 
-Dette forutsetter bruk av programvarene som er listet opp nedenfor.
-
-
-
-## Beskrivelse av oppgaven
-
-Oppgaven baseres på arealressursdata - AR5. Du skal opprette en produktspesifikasjon for et utvalg av AR5-data - arealer med produktiv skog. Det er ingen eksakt fasit for hvordan dette skal gjøres, men videoen nedenfor viser hvordan det kan gjøres.
-
-For ukeoppgaven bruker alle samme datasett - AR5-data for Hjelmeland kommune.
-
-Oppgaven vil lede deg gjennom arbeidsoppgavene som skal gjøres i form av korte videosnutter. Det er mange detaljer i disse, så se nøye på de.
-
-Oppgaven forutsetter at riktig programvare er installert på egen PC.
-
-Les om Arealressurskart og AR5 spesielt her:
-
-- [Oversikt over arealressurskart](http://www.skogoglandskap.no/filearchive/arealressurskart_brosjyre.pdf)
-- [Nærmere om AR5](http://www.skogoglandskap.no/filearchive/brosjyre_fra_skog_og_landskap_02_10_arealressurskart_rev_utg.pdf)
-- [Produktark AR5](https://register.geonorge.no/data/documents/FKB-AR5_Produktark_S-L_FKB-AR5.pdf)
-- [Produktspesifikasjon AR5](http://www.kartverket.no/globalassets/standard/sosi-kap3-produktspesifikasjoner/fkb-4.5/4-ar5-2014-03-01.pdf)
+- Lære å bruke WFS-tjenester ved hjelp av XML-filer
 
 
-## Nødvendig programvare
+# Forutsetninger
 
-Linker for nedlasting ligger i programvaretabellen.
+Oppgaven forutsetter at tidligere ukeoppgaver er gjort:
+- Workshop om OpenGeo Suite fra Boundless med delene
+  - Part 1: OpenGeo Suite
+  - Part 2: PostGIS
+  - Part 3: GeoServer
+- Ukeoppgave om PsTools, GISTools, Postgis og FME
 
-- PSTools  Brukernavn og passord - se Forumet i Blackboard
-- Sparx Enterprise Architect (EA) - du trenger bare easetupfull.msi samt informasjonen i activation.pdf og activation.txt.
-- GISTools (tillegg til EA)
-- 64-bit PostgreSQL/PostGIS
-- FME og GeoSOSI Professional
+Du skal dermed ha Geoserver installert og og en PostGIS-database med AR5-data for Hjelmeland kommune tilgjengelig på egen PC.
 
-## Datafil
+## Oppretting av WFS-tjeneste
 
-- [AR5-data for Hjelmeland kommune](https://filesender.uninett.no/beta/?s=download&token=9e313352-5bb6-914b-4a18-7e5686c15095)
+Se også informasjon i Boundless-workshop, men framgangsmåten kan avvike noe (vi bruker f.eks. ikke "Import Data"- linken).
+
+- Opprett egen workspace for AR5-dataene. Bruk kortnavn "ar5", og Namespace URI "http://ntnu.no/GEO3141/ar5".
+
+- Opprett forbindelse til dataene i PostGIS-databasen ved å lage en ny "Store".
+
+Pass på å velge riktig workspace - den som ble laget i forrige punkt. Data Source Name er et beskrivende navn du velger selv. Samme navn som workspace kan brukes.
+
+Pass på å velge riktige database-parametre. Vær obs. på at du har dine data i en annen database enn den du brukte i workshopen.
+Kryss *ikke* av for expose primary keys.
+
+Etter lagring av dette oppsettet hopper du direkte videre til:
+
+- Opprett nytt lag
+
+Her velger du det aktuelle "Layer name" - det vil si tabell fra PostGIS - ved å trykke på Publish.
+Du skal ikke ta med kodeliste-tabellene her, bare hovedtabellen - antageligvis arealressursflate.
 
 
-## Arbeidsoppgaver
+## Teste ut WFS-tjenesten
 
-1. Lage produktspesifikasjon i PSTools [opptak](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/25.02/341333/GEO3141_PSTools_-_20160225_070529_39.html) (5:41)
-1. Hente ned prosjektfil for Enterprise Architect [opptak](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/25.02/146600/GEO3141_-_Hente_Produktspesifikasjon_-_20160225_071412_39.html) (2:27) (dårlig lyd på denne)
-1. Klargjøre PostGIS-database [opptak](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/25.02/127333/GEO3141_Klargjre_database_-_20160225_072754_39.html) (2:07)
-1. Lage SQL-script som kan opprette skjema i PostGIS-database [opptak](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/25.02/505733/GEO3141_-_GISTools_-_20160225_074416_39.html) (8:26)
-1. Lage workspace i FME Workbench for opplasting av data [opptak](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/25.02/836000/GEO3141_-_Lage_FME_Workspace_-_20160225_081830_39.html) (13:56) __**(Feil i video fra 11:30, men fra 12:17 vises riktig kobling)**__
-1. Kjøre workspace-fil med aktuelle data [opptak](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/25.02/140333/GEO3141_-_FME_-_kjre_workspace-fil_-_20160225_082529_39.html) (2:20)
-1. Sjekke innholdet i databasen med QGIS [opptak](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2016/25.02/285667/GEO3141_-_Sjekke_database_med_QGIS_-_20160225_083451_39.html) (4:46)
+Last ned XML-filer og Python-script som kan modifiseres for bruk mot egen tjeneste: [WFS-ukeoppgave_2017.zip](docs/WFS-ukeoppgave_2017.zip)
 
+Se opptak fra forelesning 27.03 for å se hvordan disse filene brukes.
 
-Lykke til!
+Prøv å lage filter som bruker BBOX. Du må finne passende parametre for BBOX tilpasset de dataene du har i databasen. (Se WFS-veilederen for info om hvordan dette kan gjøres).
 
-16.02.17 / Sverre Stikbakke
+## Hent inn GML-fil i QGIS
+
+Produserte GML-filer kan dras rett inn i QGIS, men de vil ikke få riktig koordinatsystem umiddelbart. Gå inn på egenskaper under lag-navnet for å rette opp på dette.
+
+## Hente inn WFS-tjenesten i QGIS
+
+Du kan også teste ut å legge til din WFS-tjeneste i QGIS. Et av globus-ikonene i venstre marg gjelder WFS. Du trenger url til tjenesten, som du finner i WFSGetCapabilitiesResponse.xml.
 
     </div>
     <div id="htmlcontent">
