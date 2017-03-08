@@ -8,6 +8,7 @@
 - [programvare](./programvare.html)
 
 ## Ukeplaner
+- [uke-10-mappeoppgave-2](./uke-10-mappeoppgave-2.html)
 - [uke-2-internett](./uke-2-internett.html)
 - [uke-3-WMS-WMTS-OL](./uke-3-WMS-WMTS-OL.html)
 - [uke-4-teknisk-infrastruktur](./uke-4-teknisk-infrastruktur.html)
@@ -36,9 +37,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-03-01 18:45:38 +0100 |Sverre Stikbakke |Ukeoppgave WFS m.m.
+- 2017-03-08 08:25:40 +0100 |Sverre Stikbakke |Slidehare Jetlund
 ## Tidligere versjoner
 
+- [2017-03-01 18:45:46 +0100 |Sverre Stikbakke |Ukeoppgave WFS m.m.](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/93c52aaa08bbc96aa78f23df49621cc07892379a/)
 - [2017-02-25 22:15:43 +0100 |Sverre Stikbakke |Ukeoppgave GeoServer](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/72bc9716cac64994d62f8056958bd24f52a3a775/)
 - [2017-02-20 19:14:33 +0100 |Sverre Stikbakke |GML opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/68d85fd46ab45587f54aaa976d6939ec44d76e4f/)
 - [2017-02-17 08:31:19 +0100 |Sverre Stikbakke |uke 7 WFS-opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/444212d8ca004568cce18a01e40c9de4cef13d81/)
