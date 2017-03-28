@@ -8,22 +8,27 @@
 - [programvare](./programvare.html)
 
 ## Ukeplaner
+- [uke-02-internett](./uke-02-internett.html)
+- [uke-03-WMS-WMTS-OL](./uke-03-WMS-WMTS-OL.html)
+- [uke-04-teknisk-infrastruktur](./uke-04-teknisk-infrastruktur.html)
+- [uke-05-visningstjenester](./uke-05-visningstjenester.html)
+- [uke-06-modellering-standardisering](./uke-06-modellering-standardisering.html)
+- [uke-07-produktspesifikasjoner](./uke-07-produktspesifikasjoner.html)
+- [uke-08-GML-WFS](./uke-08-GML-WFS.html)
+- [uke-09-GeoServer-NVDB](./uke-09-GeoServer-NVDB.html)
 - [uke-10-mappeoppgave-2](./uke-10-mappeoppgave-2.html)
-- [uke-2-internett](./uke-2-internett.html)
-- [uke-3-WMS-WMTS-OL](./uke-3-WMS-WMTS-OL.html)
-- [uke-4-teknisk-infrastruktur](./uke-4-teknisk-infrastruktur.html)
-- [uke-5-visningstjenester](./uke-5-visningstjenester.html)
-- [uke-6-modellering-standardisering](./uke-6-modellering-standardisering.html)
-- [uke-7-produktspesifikasjoner](./uke-7-produktspesifikasjoner.html)
-- [uke-8-GML-WFS](./uke-8-GML-WFS.html)
-- [uke-9-GeoServer-NVDB](./uke-9-GeoServer-NVDB.html)
+- [uke-11-Norge-Digitalt](./uke-11-Norge-Digitalt.html)
+- [uke-12-NIBIO](./uke-12-NIBIO.html)
+- [uke-13-metadata-katalogtjenester](./uke-13-metadata-katalogtjenester.html)
 
 ## Ukeoppgaver, notater m.m.
 - [mappeoppgave-2-AR5-data](./mappeoppgave-2-AR5-data.html)
 - [notepad2meny](./notepad2meny.html)
+- [PostGIS-topology](./PostGIS-topology.html)
 - [README](./README.html)
 - [ukeoppgave-Geoserver](./ukeoppgave-Geoserver.html)
 - [ukeoppgave-internett-quiz](./ukeoppgave-internett-quiz.html)
+- [ukeoppgave-Norge-Digitalt](./ukeoppgave-Norge-Digitalt.html)
 - [ukeoppgave-PsTools-GISTools-PostGIS-FME](./ukeoppgave-PsTools-GISTools-PostGIS-FME.html)
 - [ukeoppgave-WFS](./ukeoppgave-WFS.html)
 - [ukeoppgave-WMS-kart-OL](./ukeoppgave-WMS-kart-OL.html)
@@ -37,9 +42,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-03-08 08:26:00 +0100 |Sverre Stikbakke |Slideshare Jetlund
+- 2017-03-28 14:09:02 +0200 |Sverre Stikbakke |Uke 13 PostGIS topologi
 ## Tidligere versjoner
 
+- [2017-03-08 08:26:08 +0100 |Sverre Stikbakke |Slideshare Jetlund](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/2d339ade632ed7d475910aa527e2072d7b8f6ed5/)
 - [2017-03-08 08:25:49 +0100 |Sverre Stikbakke |Slidehare Jetlund](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/e8f972410298e0865ec3702116093d5c190e97a7/)
 - [2017-03-01 18:45:46 +0100 |Sverre Stikbakke |Ukeoppgave WFS m.m.](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/93c52aaa08bbc96aa78f23df49621cc07892379a/)
 - [2017-02-25 22:15:43 +0100 |Sverre Stikbakke |Ukeoppgave GeoServer](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/72bc9716cac64994d62f8056958bd24f52a3a775/)

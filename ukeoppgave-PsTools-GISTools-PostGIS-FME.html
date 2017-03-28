@@ -8,12 +8,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-html {
-    background: #ffffff;
-    color: black;
-    font-family: 'Droid Serif';
-}
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700,400italic);
+
+html { font-family: 'Droid Serif'; }
 
 body {
     margin-left: 10%;
@@ -21,112 +18,102 @@ body {
     max-width: 680px;
 }
 
-html, body {
-    overflow-x: initial;
-}
+html, body { overflow-x: initial; }
 
-#htmlcontent {
+#markdown { display: none; }
+
+#content {
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
-h1, h2, h3 {
+#content img {
+    border-style: solid;
+    border-width: 1px;
+    color: #ddd;
+}
+
+#content a { text-decoration: underline; color: #20457C; }
+#content a:hover { background-color: #f48a8a; }
+#content a:visited { text-decoration: underline; color: #7C2045; }
+
+#content h1, 
+#content h2, 
+#content h3,
+#content h4 {
     font-family: 'Yanone Kaffeesatz';
     font-weight: normal;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: #337ab7;
+    color: #59323C;
 }
 
-pre {
-    font-family: 'Ubuntu Mono';
+#content hr {
+    //width: 300px;
+    //margin-left: auto;
+    //margin-right: auto;
+    height: 5px;
+    background-color:#ccc;
+    color:#ccc;
+    border: 0 none;
 }
 
-blockquote {
-    border-left: 5px solid #ccc;
+#content blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
+    border-left: 5px solid #ccc;
 }
 
-#mdcontent {
-    display: none;
+#content pre { font-family: 'Inconsolata'; }
+#content code {
+    font-family: 'Inconsolata';
+    display: inline-block;
+    overflow-x: auto;
+    padding: 0.5em;
+    border: 1px solid #ddd;
 }
 
-img {
-    border-style: solid;
-    border-width: 1px;
-    color: #cbcbcb;
-}
-
-
-/*!
-Pure v0.6.0
-Copyright 2014 Yahoo! Inc. All rights reserved.
-Licensed under the BSD License.
-https://github.com/yahoo/pure/blob/master/LICENSE.md
-*/
-
-table {
+#content table {
     /* Remove spacing between table cells (from Normalize.css) */
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
-    border: 1px solid #cbcbcb;
-    margin: 1em 0 1.5em 0;
+    border: 1px solid #8C6954;
 }
 
-table caption {
-    color: #000;
+#content table caption {
     font: italic 85%/1 arial, sans-serif;
     padding: 1em 0;
     text-align: center;
+    color: #F5F5F5;
 }
 
-table td, table th {
-    border-left: 1px solid #cbcbcb;
-    /*  inner column border */
-    border-width: 0 0 0 1px;
+#content table td,
+#content table th {
     font-size: inherit;
     margin: 0;
-    overflow: visible;
-    /*to make ths where the title is really long work*/
-    padding: 0.5em 1em;
-    /* cell padding */
+    overflow: visible; /* to make ths where the title is really long work */
+    padding: 0.5em 1em; /* cell padding */
+    border-width: 0 0 0 1px;
+    border-left: 1px solid #8C6954;/* inner column border */
 }
 
-
-/* Consider removing this next declaration block, as it causes problems when
-there's a rowspan on the first cell. Case added to the tests. issue#432 */
-
-table td:first-child, table th:first-child {
-    border-left-width: 0;
-}
-
-table thead {
-    background-color: #e0e0e0;
-    color: #000;
+#content table thead {
     text-align: left;
     vertical-align: bottom;
+    background-color: #BFAF80;
+    color: #000;
 }
 
-
-/*
-striping:
-   even - #fff (white)
-   odd  - #f2f2f2 (light gray)
-*/
-
-
 /* nth-child selector for modern browsers */
-
-table tr:nth-child(2n-2) td {
-    background-color: #f2f2f2;
+#content table tr:nth-child(2n-1) td {
+    background-color: #F2EEB3;
 }
 
     </style>
 </head>
 <body>
-    <div id="mdcontent">
+    <div id="markdown">
 
 # Ukeoppgave for Modul 4 - GML og WFS - PSTools, GISTools, Postgis og FME
 
@@ -190,7 +177,7 @@ Lykke til!
 16.02.17 / Sverre Stikbakke
 
     </div>
-    <div id="htmlcontent">
+    <div id="content">
     
         <!-- generated html -->
 
@@ -201,7 +188,7 @@ Lykke til!
     </script>
     <script>
         var md = markdownit({
-          html: true,
+          html: false,
           linkify: true,
           breaks: true
         });
@@ -209,8 +196,8 @@ Lykke til!
           target: '_blank',
           rel: 'noopener'
         });
-        var markdown = document.getElementById('mdcontent');
-        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
+        var markdownsource = document.getElementById('markdown');
+        document.getElementById("content").innerHTML = md.render(markdownsource.innerHTML);
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>

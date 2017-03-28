@@ -11,12 +11,12 @@
     </style>
 </head>
 <body>
-    <div id="mdcontent">
+    <div id="markdown">
 
         @@markdown
 
     </div>
-    <div id="htmlcontent">
+    <div id="content">
     
         <!-- generated html -->
 
@@ -27,7 +27,7 @@
     </script>
     <script>
         var md = markdownit({
-          html: true,
+          html: false,
           linkify: true,
           breaks: true
         });
@@ -35,8 +35,8 @@
           target: '_blank',
           rel: 'noopener'
         });
-        var markdown = document.getElementById('mdcontent');
-        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
+        var markdownsource = document.getElementById('markdown');
+        document.getElementById("content").innerHTML = md.render(markdownsource.innerHTML);
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>

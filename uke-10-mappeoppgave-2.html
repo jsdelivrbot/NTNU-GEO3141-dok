@@ -8,12 +8,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-html {
-    background: #ffffff;
-    color: black;
-    font-family: 'Droid Serif';
-}
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700,400italic);
+
+html { font-family: 'Droid Serif'; }
 
 body {
     margin-left: 10%;
@@ -21,112 +18,102 @@ body {
     max-width: 680px;
 }
 
-html, body {
-    overflow-x: initial;
-}
+html, body { overflow-x: initial; }
 
-#htmlcontent {
+#markdown { display: none; }
+
+#content {
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
-h1, h2, h3 {
+#content img {
+    border-style: solid;
+    border-width: 1px;
+    color: #ddd;
+}
+
+#content a { text-decoration: underline; color: #20457C; }
+#content a:hover { background-color: #f48a8a; }
+#content a:visited { text-decoration: underline; color: #7C2045; }
+
+#content h1, 
+#content h2, 
+#content h3,
+#content h4 {
     font-family: 'Yanone Kaffeesatz';
     font-weight: normal;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: #337ab7;
+    color: #59323C;
 }
 
-pre {
-    font-family: 'Ubuntu Mono';
+#content hr {
+    //width: 300px;
+    //margin-left: auto;
+    //margin-right: auto;
+    height: 5px;
+    background-color:#ccc;
+    color:#ccc;
+    border: 0 none;
 }
 
-blockquote {
-    border-left: 5px solid #ccc;
+#content blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
+    border-left: 5px solid #ccc;
 }
 
-#mdcontent {
-    display: none;
+#content pre { font-family: 'Inconsolata'; }
+#content code {
+    font-family: 'Inconsolata';
+    display: inline-block;
+    overflow-x: auto;
+    padding: 0.5em;
+    border: 1px solid #ddd;
 }
 
-img {
-    border-style: solid;
-    border-width: 1px;
-    color: #cbcbcb;
-}
-
-
-/*!
-Pure v0.6.0
-Copyright 2014 Yahoo! Inc. All rights reserved.
-Licensed under the BSD License.
-https://github.com/yahoo/pure/blob/master/LICENSE.md
-*/
-
-table {
+#content table {
     /* Remove spacing between table cells (from Normalize.css) */
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
-    border: 1px solid #cbcbcb;
-    margin: 1em 0 1.5em 0;
+    border: 1px solid #8C6954;
 }
 
-table caption {
-    color: #000;
+#content table caption {
     font: italic 85%/1 arial, sans-serif;
     padding: 1em 0;
     text-align: center;
+    color: #F5F5F5;
 }
 
-table td, table th {
-    border-left: 1px solid #cbcbcb;
-    /*  inner column border */
-    border-width: 0 0 0 1px;
+#content table td,
+#content table th {
     font-size: inherit;
     margin: 0;
-    overflow: visible;
-    /*to make ths where the title is really long work*/
-    padding: 0.5em 1em;
-    /* cell padding */
+    overflow: visible; /* to make ths where the title is really long work */
+    padding: 0.5em 1em; /* cell padding */
+    border-width: 0 0 0 1px;
+    border-left: 1px solid #8C6954;/* inner column border */
 }
 
-
-/* Consider removing this next declaration block, as it causes problems when
-there's a rowspan on the first cell. Case added to the tests. issue#432 */
-
-table td:first-child, table th:first-child {
-    border-left-width: 0;
-}
-
-table thead {
-    background-color: #e0e0e0;
-    color: #000;
+#content table thead {
     text-align: left;
     vertical-align: bottom;
+    background-color: #BFAF80;
+    color: #000;
 }
 
-
-/*
-striping:
-   even - #fff (white)
-   odd  - #f2f2f2 (light gray)
-*/
-
-
 /* nth-child selector for modern browsers */
-
-table tr:nth-child(2n-2) td {
-    background-color: #f2f2f2;
+#content table tr:nth-child(2n-1) td {
+    background-color: #F2EEB3;
 }
 
     </style>
 </head>
 <body>
-    <div id="mdcontent">
+    <div id="markdown">
 
 # GEO3141 - Vår 2017 - uke 10
 ---
@@ -148,8 +135,78 @@ Målet med arbeidet denne uka blir å få kontroll på produksjonsløypa for WFS
 - Demonstrasjon noen måter å bruke Filter Encoding på
 - Quiz om GML og WFS
 - Arbeid med mappeoppgave 2
+
+## Presentasjoner og opptak
+
+Dato |Tema |Format
+---|---|---
+09.03 |WFS-GML-Kahoot |[PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/09.03/767667/GEO3141_GML-WFS-Kahoot_-_20170309_123346_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/09.03/767667/GEO3141_GML-WFS-Kahoot_-_20170309_123346_36.html)
+|  |WFS/Filter Encoding-demo |[PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/09.03/2373000/GEO3141_-_WFS-Filter_Encoding_-_20170309_131527_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/09.03/2373000/GEO3141_-_WFS-Filter_Encoding_-_20170309_131527_36.html)
+
+## WFSGetFeature.xml - eksempel brukt i demoen
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:GetFeature
+  xmlns:wfs = "http://www.opengis.net/wfs/2.0"
+  xmlns:fes = "http://www.opengis.net/fes/2.0"
+  xmlns:hig = "http://hig.no/geo3141">
+  <wfs:Query typeNames = "hig:sentrum2016">
+    <fes:Filter>
+      <fes:PropertyIsEqualTo>
+        <fes:ValueReference>tettnr</fes:ValueReference>
+        <fes:Literal>1023</fes:Literal>
+      </fes:PropertyIsEqualTo>
+    </fes:Filter>
+  </wfs:Query>
+</wfs:GetFeature>
+```
+
+## WFSGetFeatureWithin.xml - eksempel brukt i demoen
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<wfs:GetFeature
+  xmlns:wfs = "http://www.opengis.net/wfs/2.0"
+  xmlns:fes = "http://www.opengis.net/fes/2.0"
+  xmlns:hig = "http://hig.no/geo3141">  
+  <wfs:Query typeNames = "hig:byggflate">
+    <fes:Filter
+      xmlns:gml = "http://www.opengis.net/gml/3.2"
+      xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation = "http://www.opengis.net/fes/2.0
+                                  http://schemas.opengis.net/filter/2.0.0/filterAll.xsd
+                                  http://www.opengis.net/gml/3.2
+                                  http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+      <fes:Within>
+        <fes:ValueReference>geom</fes:ValueReference>
+        <gml:Polygon
+          gml:id = "P1"
+          srsName = "urn:ogc:def:crs:EPSG::32633">
+          <gml:exterior>
+            <gml:LinearRing>
+              <gml:posList>267056.775 6762755.1225 ...
+
+                 ..... (alle koordinatene som danner utvalgs-polygonet skal ligge her)
+
+                 ... 6762755.1229 267056.775 6762755.1225</gml:posList>
+            </gml:LinearRing>
+          </gml:exterior>
+        </gml:Polygon>
+      </fes:Within>
+    </fes:Filter>
+  </wfs:Query>
+</wfs:GetFeature>
+```
+
+## Resultat: bygninger innenfor 2013-sentrumssonen i Moelv
+
+Det grønne polygonet er sentrumssonen i 2016. Fiolett er sentrumssonen i 2013. De utvalgte bygningne ligger innenfor 2013-sonen.
+
+![moelv_sentrum_2013-2016.png](images/moelv_sentrum_2013-2016.png)
+
     </div>
-    <div id="htmlcontent">
+    <div id="content">
     
         <!-- generated html -->
 
@@ -160,7 +217,7 @@ Målet med arbeidet denne uka blir å få kontroll på produksjonsløypa for WFS
     </script>
     <script>
         var md = markdownit({
-          html: true,
+          html: false,
           linkify: true,
           breaks: true
         });
@@ -168,8 +225,8 @@ Målet med arbeidet denne uka blir å få kontroll på produksjonsløypa for WFS
           target: '_blank',
           rel: 'noopener'
         });
-        var markdown = document.getElementById('mdcontent');
-        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
+        var markdownsource = document.getElementById('markdown');
+        document.getElementById("content").innerHTML = md.render(markdownsource.innerHTML);
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>

@@ -10,8 +10,8 @@ Programvare |Kommentar|Info |Brukes til
 --|--|--|--
 [ArcGIS 10.5](https://filesender.uninett.no/beta/?s=download&token=20ee7cd8-53f8-05e7-b0d0-04f4ba3b6058) | |[Documentation](http://desktop.arcgis.com/en/documentation/) |GIS-program
 [ArcGIS Server 10.5](https://copernicus.hig.no:6443/arcgis/manager/) |Bruk VPN utenfor campus  |[Documentation](http://server.arcgis.com/en/documentation/) |Publisering av WMS- og WMTS-tjenester
-|[Lisensfil for ArcGIS server](docs/ArcGISGISServerAdvanced_ArcGISServer_498386.zip) |Installeres på egen PC |[Ukeoppgave uke 2](uke-2-internett.html) |Nødvendig for å kunne lage geodatabase på copernicus
-[PostgreSQL 9.5](https://filesender.uninett.no/beta/?s=download&token=3d6b8712-d640-cb3b-0e55-034cfdf2f019) | |[About](https://www.postgresql.org/about/) [Documentation for PostGIS](http://postgis.net/documentation/) [pgAdmin Main Window](https://www.pgadmin.org/docs/1.22/main.html)|pgAdmin, PostGIS geografisk database
+|[Lisensfil for ArcGIS server](docs/ArcGISGISServerAdvanced_ArcGISServer_498386.zip) |Installeres på egen PC |Nødvendig for å kunne lage geodatabase på copernicus
+[PostgreSQL 9.5](https://filesender.uninett.no/beta/?s=download&token=d3a1178e-4d17-2c5c-d868-4597ea29b4f3) | |[About](https://www.postgresql.org/about/) [Documentation for PostGIS](http://postgis.net/documentation/) [pgAdmin Main Window](https://www.pgadmin.org/docs/1.22/main.html)|pgAdmin, PostGIS geografisk database
 [QGIS](http://www.qgis.org/en/site/forusers/download.html) |Velg 64-bit |[Documentation](http://www.qgis.org/en/docs/index.html) |GIS-program
 [FME Desktop](https://minside.hig.no/download.php?language=no_NO) | |[Desktop tour](https://www.safe.com/fme/fme-desktop/tour/) |Format/skjema-konvertering, SOSI m.m.
 [PsTools](https://sosi.arkitektum.no/) |Nettsted |Innlogging - se forumet |Produktspesifikasjoner basert på SOSI objektkatalog
@@ -21,4 +21,5 @@ Programvare |Kommentar|Info |Brukes til
 
 
 --
-Det vil komme endringer/tillegg i løpet av semesteret.
+- Det vil komme endringer/tillegg i løpet av semesteret.
+- *(Oppdatert 22.03.17 med ny link for PostgreSQL 9.5)*

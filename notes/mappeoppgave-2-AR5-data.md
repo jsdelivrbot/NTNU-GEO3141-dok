@@ -11,7 +11,8 @@ Dyrket mark og beite |Ødegård, Tjomsland |Helland, Norheim |Grumstad, Olafsen 
 Myr og annen utmark |Mjøen, Mæland |Berner |Dunlop |Dyve
 Bebygde arealer |Larsen |Rype |Øistad |Kristensen
 Dyrket mark og beite |Pollen |Samdal |Enerstvedt |
-Datafil for nedlasting |[32_FKB_1246_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=ab9ab3cc-7d91-baf0-c113-776425c50e3a) |[32_FKB_0420_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=72428c21-4211-e98f-3f9f-523b282a92a5) |[32_FKB_0501_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=1d9dc9ca-07a7-2261-8cf0-597d1d371e7d) |[33_FKB_1813_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=f6dedd2d-d43e-75b2-528f-bf7ec6af4ed5)
+Datafil for nedlasting |[32_FKB_1246_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=6201d9de-df10-af71-90a5-43cf9634f4d5) |[32_FKB_0420_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=94adc697-e8cb-5e15-dde7-0fb24675748c) |[32_FKB_0501_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=dbb3a913-0485-a5c3-2c89-952e0c2eb71e) |[33_FKB_1813_AR5.zip](https://filesender.uninett.no/beta/?s=download&token=47552742-da40-b67e-43a5-9793905020a0)
 
 - *(Rakkestad kommune manglet metadata for sitt datasett, så derfor brukes Eidskog i stedet - jfr. oppgaveteksten)*
 - *(NB! Merk at linken for nedlasting går ut på dato - 20. mars)*
+- *(Oppdatert 22.03.17: Jeg har lagt ut filene på nytt ettersom ikke alle hadde fått lastet ned filene innen den 20.03)*

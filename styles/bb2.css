@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+html {
+    background: #fff;
+    color: black;
+    font-family: 'Droid Serif';
+}
+
+body {
+    margin-left: 10%;
+    width: 80%;
+    max-width: 680px;
+}
+
+html, body {
+    overflow-x: initial;
+}
+
+#content {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #337ab7;
+}
+
+pre {
+    font-family: 'Ubuntu Mono';
+}
+
+blockquote {
+    border-left: 5px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+#markdown {
+    display: none;
+}
+
+img {
+    border-style: solid;
+    border-width: 1px;
+    color: #FA6900;
+}
+
+
+#content code {
+    font-family: 'Ubuntu Mono';
+    display: inline-block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f2f2f2;
+}
+
+/*!
+Pure v0.6.2
+Copyright 2016 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+#content table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #FA6900;
+}
+
+#content table caption {
+    color: #F5F5F5;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#content table td,
+#content table th {
+    border-left: 1px solid #FA6900;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+
+#content table thead {
+    background-color: #F38630;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+/* nth-child selector for modern browsers */
+#content table tr:nth-child(2n-1) td {
+    background-color: #E0E4CC;
+}
+
+
+
+
