@@ -24,6 +24,7 @@ Dato |Tema |Format
 27.03 |Metadata for geodata |[PDF](docs/Metadata_20170326_EO.pdf) [PC](https://screencast.uninett.no/relay/ansatt/erlingohig.no/2017/27.03/2779600/GEO3141_Metadata_20170327_del_a_-_20170327_101123_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/erlingohig.no/2017/27.03/2779600/GEO3141_Metadata_20170327_del_a_-_20170327_101123_36.html)
 | |Litt om topologi i PostGIS |[HTML](PostGIS-topology.html)  [PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/27.03/1031600/GEO3141_-_Topologi_-_20170327_105005_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/27.03/1031600/GEO3141_-_Topologi_-_20170327_105005_36.html)
 | |Quiz om Norge Digitalt |[PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/27.03/831867/GEO3141_-_Norge-Digitalt-quiz_-_20170327_111036_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/27.03/831867/GEO3141_-_Norge-Digitalt-quiz_-_20170327_111036_36.html)
+30.03 |En litt ufullstendig presentasjon av mappeoppgave 3 |[HTML- foreløpig versjon](mappeoppgave-3.html) [PC](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/30.03/621667/GEO3141_-_Intro_til_mappeoppgave_3_-_20170330_122935_39.html) [Pad](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/30.03/621667/GEO3141_-_Intro_til_mappeoppgave_3_-_20170330_122935_36.html)
 
 
 ## Ressurser

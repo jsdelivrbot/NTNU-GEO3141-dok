@@ -20,9 +20,12 @@
 - [uke-11-Norge-Digitalt](./uke-11-Norge-Digitalt.html)
 - [uke-12-NIBIO](./uke-12-NIBIO.html)
 - [uke-13-metadata-katalogtjenester](./uke-13-metadata-katalogtjenester.html)
+- [uke-14-Kartverket](./uke-14-Kartverket.html)
 
 ## Ukeoppgaver, notater m.m.
 - [mappeoppgave-2-AR5-data](./mappeoppgave-2-AR5-data.html)
+- [mappeoppgave-3](./mappeoppgave-3.html)
+- [mappeoppgave-3-v1](./mappeoppgave-3-v1.html)
 - [notepad2meny](./notepad2meny.html)
 - [PostGIS-topology](./PostGIS-topology.html)
 - [README](./README.html)
@@ -42,9 +45,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-03-28 14:09:02 +0200 |Sverre Stikbakke |Uke 13 PostGIS topologi
+- 2017-04-05 15:37:23 +0200 |Sverre Stikbakke |mappeoppgave 3
 ## Tidligere versjoner
 
+- [2017-03-28 14:09:12 +0200 |Sverre Stikbakke |Uke 13 PostGIS topologi](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/3d9016292c072550672c18b759261f1ac77fb988/)
 - [2017-03-08 08:26:08 +0100 |Sverre Stikbakke |Slideshare Jetlund](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/2d339ade632ed7d475910aa527e2072d7b8f6ed5/)
 - [2017-03-08 08:25:49 +0100 |Sverre Stikbakke |Slidehare Jetlund](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/e8f972410298e0865ec3702116093d5c190e97a7/)
 - [2017-03-01 18:45:46 +0100 |Sverre Stikbakke |Ukeoppgave WFS m.m.](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/93c52aaa08bbc96aa78f23df49621cc07892379a/)
