@@ -45,9 +45,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-04-05 18:02:05 +0200 |Sverre Stikbakke |mappeoppgave 3 .
+- 2017-04-07 09:32:57 +0200 |Sverre Stikbakke |Kartverket opptak
 ## Tidligere versjoner
 
+- [2017-04-05 18:02:28 +0200 |Sverre Stikbakke |mappeoppgave 3 .](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/314940b10a5ff6e04d20a07c74d9c1e4e79ada53/)
 - [2017-04-05 15:37:33 +0200 |Sverre Stikbakke |mappeoppgave 3](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/922e6c791146cab28591698d00bca668998bb9c8/)
 - [2017-03-28 14:09:12 +0200 |Sverre Stikbakke |Uke 13 PostGIS topologi](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/3d9016292c072550672c18b759261f1ac77fb988/)
 - [2017-03-08 08:26:08 +0100 |Sverre Stikbakke |Slideshare Jetlund](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/2d339ade632ed7d475910aa527e2072d7b8f6ed5/)
