@@ -1,6 +1,6 @@
 # GEO3141 Infrastrukturer for stedfestet informasjon
 
-- *(versjon: 25.01.2017 - Endret: undervisningsfri 2. og 23. februar)*
+- *(versjon: 19.04.2017 - endret program for uke 16)*
 
 ## Emneplan for våren 2017
 
@@ -22,15 +22,16 @@ Uke |Startdato |Tema |Ansvar
 | |02.03 |ISO-standardisering, objektkataloger og eksempler på tjenester fra NVDB |Statens vegvesen v/ Knut Jetlund
 - | - | - | -
 10 |06.03 |Nedlastingstjenester: Geoserver |SS
-11 |13.03 |Norge digitalt: Nasjonal geodatastrategi |NN
+11 |13.03 |Norge digitalt: Nasjonal geodatastrategi |SS
 12 |20.03 |Norge Digitalt |SS
 | |23.03 |Parter i Norge Digitalt ved en av dem |NIBIO v/ Ingvild Nystuen
 13 |27.03 |Metadata og katalogtjenester |Erlig Onstein
 - | - | - | -
-14 |03.04 |Teknologileveranser til den geografiske infrastrukturen| NN
+14 |03.04 |Teknisk infrastruktur for Kartverkets tjenester| Kartverket
 15 |--- |Påske
-16 |18.04 |Tjenesteleveranser - å sette det hele sammen |Erling Onstein
+16 |18.04 |Arbeid med mappeoppgave 3 | |
 17 |24.04 |Oppsummering - hva er egentlig en infrastruktur for stedfestet informasjon? |SS
 
 - *(10.01.2017 - Endret tittel på gjesteforelesning i uke 9)*
 - *(25.01.2017 - undervisningsfri 2. og 23. februar)*
+- *(19.04.2017 - endret program for uke 16)*
