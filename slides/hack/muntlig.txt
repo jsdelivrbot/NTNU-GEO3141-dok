@@ -1,0 +1,112 @@
+# GEO3141 muntlig utspørring
+
+---
+
+## Temaer som kan trekkes
+
+- ArcGIS for server og teknisk infrastruktur
+- WMS og WMTS
+- Produktspesifikasjoner
+- Tjenesteleveranser
+- GML, WFS og Filter Encoding
+- Standardisering
+- Organisering
+- Metadata
+
+---
+
+## Aktuelle spørsmål fra hvert av temaene
+
+
+NB! Dette er eksempler på aktuelle spørsmål, og spørsmål det er lurt å forberede seg på.
+Vi kan også stille andre spørsmål enn dette.
+
+
+---
+
+## ArcGIS for server og teknisk infrastruktur
+
+- hva er en server og hva skiller den fra en PC?
+- nevn noen fysiske komponenter som inngår i et datanettverk
+- hvilke lag består TCP/IP-protokollen av og hva er deres funksjon?
+- hva er HTTP?
+- hva er ArcGIS for server?
+- hva kreves for å opprette en WMS-tjeneste på ArcGIS for Server?
+- på hvilken måte brukes HTTP i kommunikasjonen med ArcGIS for Server?
+
+---
+
+## WMS og WMTS
+
+Vi legger hovedvekten på WMTS:
+- hva er WMTS?
+- hva trengs for å opprette og drifte en WMTS-tjeneste?
+- hva må du vite for å opprette en WMTS-tjeneste?
+- hvilke muligheter finnes for å ta i bruk WMTS-tjenester?
+- hva trenger du å vite for å ta i bruk en WMTS-tjeneste, og hvordan kan du finne ut dette?
+
+---
+
+## Produktspesifikasjoner (PS)
+
+- hva er en PS?
+- hvem lager produktspesifikasjoner?
+- for hvem?
+- hva inneholder den?
+- hvilken informasjon kreves for å lage en PS?
+- hvordan gjøres dette rent praktisk?
+- hvilke alternative metoder finnes for å lage produktspesifikasjoner?
+
+---
+
+## Tjenesteleveranser
+
+- hva er en tjeneste i Norge Digitalt-sammenheng?
+- hvem er ansvarlig for leveransen?
+- hvordan er en leveranse spesifisert?
+- hvilke verktøy og metoder er aktuelle for å opprette og drifte en tjeneste?
+- hvilke dokumenter må tjenesteleverandøren forholde seg til?
+
+---
+
+## GML, WFS og Filter Encoding
+
+- hva er GML og WFS?
+- hva brukes det til?
+- hvilke verktøy og metoder er aktuelle for å bruke GML og WFS?
+- hva er Filter Encoding (FE) og hva kan det brukes til?
+- hvilke muligheter og begrensninger gjelder for GML, WFS og FE?
+
+---
+
+## Standardisering
+
+- hva er en standard?
+- hvem lager standarder for geografiske data og tjenester?
+- hvorfor lages standarder?
+- hvilke standarder er det særlig aktuelt å forholde seg til innenfor Norge Digitalt?
+
+---
+
+## Organisering
+
+- hva er ISI/GI/SDI?
+- hvem er ansvarlig for ISI i Norge?
+- hvilke lover og forskrifter regulerer dette?
+- hvordan er Norge Digitalt organisert?
+- hva er INSPIRE?
+- på hvilken måte påvirker INSPIRE ISI i Norge?
+
+---
+
+## Metadata
+
+- hva er metadata?
+- hvem lager metadata?
+- hvorfor?
+- for hvem?
+- hva inneholder metadata?
+- hva kreves for å lage metadata?
+- hvordan gjøres det?
+- hvordan presenteres metadata?
+- på hvilken måte kan en metadataportal hjelpe til med dette?
