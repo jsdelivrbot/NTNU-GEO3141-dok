@@ -47,9 +47,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-04-27 21:21:07 +0200 |Sverre Stikbakke |Uke 17
+- 2017-04-27 21:21:46 +0200 |Sverre Stikbakke |Uke 17
 ## Tidligere versjoner
 
+- [2017-04-27 21:21:22 +0200 |Sverre Stikbakke |Uke 17](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b34f9617ad5a47720b5bbc748a5c09a0b53dc9df/)
 - [2017-04-27 21:10:29 +0200 |Sverre Stikbakke |Uke 17](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/15ea7eb5acd1ca393bfde4293461f98c8208f1f0/)
 - [2017-04-07 09:33:08 +0200 |Sverre Stikbakke |Kartverket opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/dca715d657d8e4ffe812850229dba27f44756354/)
 - [2017-04-05 18:02:28 +0200 |Sverre Stikbakke |mappeoppgave 3 .](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/314940b10a5ff6e04d20a07c74d9c1e4e79ada53/)
