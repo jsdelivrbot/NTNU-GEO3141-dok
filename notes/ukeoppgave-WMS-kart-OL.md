@@ -1,24 +1,28 @@
 # Ukeoppgave: WMS-kart i Open Layers
 
+---
+
+## Introduksjon
+
 Denne oppgaven handler om å få vist sin egen WMS-tjeneste på copernicus i et Open Layers web-kart.
 Nedenfor følger en mal som brukes ganske direkte med minimale tilpasninger.
 
 Kartet lages for FKB-data i Horten kommune, i Web Meractor-projeksjon (se ukeoopgave for uke 2).
 
-Husk at man utenfor NTNU-campus må koble seg opp med VPN først.
+> Husk at man utenfor NTNU-campus må koble seg opp med VPN først.
 
-Url på egen tjeneste kan hentes ut fra menyvalget __OGC services__ i [ArcGIS Server Manager](https://copernicus.hig.no:6443/arcgis/manager/).
-Dette er en lang url, og i javascript-koden nedenfor er den delt opp i sine logiske deler.
+Url på egen tjeneste kan hentes ut fra menyvalget __OGC services__ i [ArcGIS Server Manager](https://copernicus.hig.no:6443/arcgis/manager/). Dette er en lang url, og i javascript-koden nedenfor er den delt opp i sine logiske deler.
 
-Lagnavn kan hente ut ved hjelp av getcapabilities-kall, f.eks. slik: (#-tegn må byttes ut med og-tegn)
+Lagnavn kan hente ut ved hjelp av getcapabilities-kall, f.eks. slik:
+
 ```ini
 https://copernicus.hig.no:6443/arcgis/services/sverrsti/Horten_sverrsti/MapServer/WMSServer?
-service=wms#
-request=getcapabilities#
+service=wms&
+request=getcapabilities&
 version=1.3
 ```
 
-Merk at zoom-nivåene er definert ut fra min- og max-resolutions. 
+Merk at zoom-nivåene er definert ut fra min- og max-resolutions.
 
 ## wms.js
 
@@ -65,10 +69,11 @@ var map = new ol.Map({
 
 ```
 
-### WMS.html
+## wms.html
 
 
-```html
+```c
+<!--
 <!DOCTYPE html>
 <html>
 
@@ -95,6 +100,7 @@ var map = new ol.Map({
 </body>
 
 </html>
+-->
 ```
 
-(noe av HTML-koden blir borte når det vises her. En komplett, og levende side finnes [her](http://sverres.net/GEO3141/Horten/WMS.html))
+En komplett, og levende side finnes [her](http://sverres.net/GEO3141/Horten/WMS.html).

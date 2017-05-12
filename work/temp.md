@@ -1,5 +1,7 @@
 # WMTS: arbeidsgang ved oppretting av tjeneste på ArcGIS Server
 
+---
+
 ## Forutsetninger
 
 - WMS-tjeneste er opprettet fra før.
@@ -13,18 +15,18 @@
 1. Hente ut metadata fra WMTS-tjeneste
 
 
-### Hente ut metadata fra WMS-tjeneste
+## Hente ut metadata fra WMS-tjeneste
 
 - Finn url for tjenesten:
 
 ![Finn url for tjenesten](./images/arcgis/serviceurl.png)
 
-- Send getcapabilities-kall (#-tegn må byttes ut med og-tegn):
+- Send getcapabilities-kall:
 
 ```ini
 https://copernicus.hig.no:6443/arcgis/services/sverrsti/Lillehammer/MapServer/WMSServer?
-service=wms#
-request=getcapabilities#
+service=wms&
+request=getcapabilities&
 version=1.3
 ```
 
@@ -37,7 +39,8 @@ version=1.3
 - Hent ut extent-informasjon for aktuelt koordinatsystem:
 
 ```xml
-BoundingBox CRS="EPSG:25832" minx="556183.820000" miny="6766438.200000" maxx="592522.830000" maxy="6789942.020000"
+<BoundingBox CRS="EPSG:25832" minx="556183.820000" miny="6766438.200000"  
+  maxx="592522.830000" maxy="6789942.020000"></BoundingBox>
 ```
 
 - Navn på aktuelle kartlag:
@@ -49,14 +52,13 @@ BoundingBox CRS="EPSG:25832" minx="556183.820000" miny="6766438.200000" maxx="59
 </Layer>
 ```
 
-### Bestemme zoom-nivåer
+## Bestemme zoom-nivåer
 
 Antall zoom-nivåer kan variere, men hvert ekstra zoom-nivå tar plass på serveren. Vi bruker derfor her maksimalt 5 zoom-nivåer.
 
-En passende inndeling for fkb-data kan være målestokkene 25000, 15000, 10000, 5000, 2500.
-For andre typer data kan det være mer passende med mindre målestokker, f.eks. 50000 eller mindre.
+En passende inndeling for fkb-data kan være målestokkene 25000, 15000, 10000, 5000, 2500. For andre typer data kan det være mer passende med mindre målestokker, f.eks. 50000 eller mindre.
 
-### Opprette tjenesten i ArcGIS Manager
+## Opprette tjenesten i ArcGIS Manager
 
 - Gå inn på Manage services og din mappe i ArcGIS Server Manager
 
@@ -75,13 +77,13 @@ For andre typer data kan det være mer passende med mindre målestokker, f.eks. 
 
 ![Finn url for tjenesten](./images/arcgis/flissymbol.png)
 
-### Administrere tjenesten fra ArcMap
+## Administrere tjenesten fra ArcMap
 
 Hvis du vil slette kartflisene hvs det kanskje ikke ble riktig i første forsøk, kan det gjøres fra ArcMap.
 
 - [Video: 24:30-31:15](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2017/19.01/2629800/GEO3141_-_WMTS_p_AGS_-_20170119_132349_39.html)
 
-### Hente ut metadata fra WMTS-tjeneste
+## Hente ut metadata fra WMTS-tjeneste
 
 Url for WMTS-metadata hentes ut fra samme sted som WMS-metadata. Velg WMTS i dra-ned-menyen.
 

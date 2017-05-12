@@ -46,9 +46,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-04-27 23:07:44 +0200 |Sverre Stikbakke |Uke 17 opptak
+- 2017-05-12 10:15:55 +0200 |Sverre Stikbakke |CSS/Jquery
 ## Tidligere versjoner
 
+- [2017-04-27 23:07:57 +0200 |Sverre Stikbakke |Uke 17 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/e3d69f052fdfe7d87a23431076eddddfc67662dd/)
 - [2017-04-27 21:22:00 +0200 |Sverre Stikbakke |Uke 17](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/e2757e83d1f8c6d55a05fb95a146343893ae43f1/)
 - [2017-04-27 21:21:22 +0200 |Sverre Stikbakke |Uke 17](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/b34f9617ad5a47720b5bbc748a5c09a0b53dc9df/)
 - [2017-04-27 21:10:29 +0200 |Sverre Stikbakke |Uke 17](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/15ea7eb5acd1ca393bfde4293461f98c8208f1f0/)

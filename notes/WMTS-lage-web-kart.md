@@ -1,5 +1,7 @@
 # WMTS: arbeidsgang for webkart i Open Layers
 
+---
+
 ## Forutsetninger
 
 - WMTS-tjeneste er opprettet fra før.
@@ -91,7 +93,8 @@ var map = new ol.Map({
 
 ## WMTS.html
 
-```html
+```c
+<!--
 <!DOCTYPE html>
 <html>
 
@@ -118,6 +121,7 @@ var map = new ol.Map({
 </body>
 
 </html>
+-->
 ```
 
 ## Hvis projeksjonen er noe annet enn Web Mercator

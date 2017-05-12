@@ -1,6 +1,8 @@
 # WMTS, kartflisinndelinger og koordinatsystemer
 
-# Kartverkets dekningsområder (extent)
+---
+
+## Kartverkets dekningsområder (extent)
 
 Koordinatsystem	|x	|y	|x	|y
 --|--|--|--|--

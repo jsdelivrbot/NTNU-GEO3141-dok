@@ -1,5 +1,7 @@
 # Ukeoppgave: internett-quiz
 
+---
+
 ## Oppgave
 
 Denne oppgaven forutsetter at du har lest igjennom artiklene og sett videoene og presentasjonene om internett-protokoller.

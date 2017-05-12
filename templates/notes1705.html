@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@@title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css">
+    <style>
+
+        @@css
+
+    </style>
+</head>
+<body>
+    <div id="markdown">
+
+        @@markdown
+
+    </div>
+    <div id="content">
+    
+        <!-- generated html -->
+
+    </div>
+    <script type="text/javascript" 
+      src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js">
+    </script>
+    <script type="text/javascript" 
+      src="https://cdn.rawgit.com/crookedneighbor/markdown-it-link-attributes/master/dist/markdown-it-link-attributes.min.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
+    <script>
+        var md = markdownit({
+          html: true,
+          linkify: true,
+          breaks: true
+        });
+        md.use(markdownitLinkAttributes, {
+          target: '_blank',
+          rel: 'noopener'
+        });
+        $('#content').html(md.render($('#markdown').html().
+            replace(/&gt;/g, '>').
+            replace(/&amp;/g, '&')));
+    </script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js">
+    </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>

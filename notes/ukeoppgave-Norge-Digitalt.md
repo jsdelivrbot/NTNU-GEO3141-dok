@@ -1,5 +1,7 @@
 # Ukeoppgave om Norge Digitalt
 
+---
+
 ## Mål for oppgaven
 
 Å lære om geodatasamarbeid i Norge - ved å bli kjent med tilgjengelig litteratur.

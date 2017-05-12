@@ -1,5 +1,7 @@
 # WMTS-eksempel for Lillehammer-kart i UTM sone 32-projeksjon
 
+---
+
 ## WMTS.js
 
 ```javascript
@@ -88,7 +90,8 @@ var map = new ol.Map({
 
 ## WMTS.html
 
-```html
+```c
+<!--
 <!DOCTYPE html>
 <html>
 
@@ -115,6 +118,7 @@ var map = new ol.Map({
 </body>
 
 </html>
+-->
 ```
-(noe av HTML-koden blir borte når det vises her. En komplett, og levende side finnes [her](http://sverres.net/GEO3141/Lillehammer/WMTS.html))
+En komplett, og levende side finnes [her](http://sverres.net/GEO3141/Lillehammer/WMTS.html).  
 Trykk på *Ctrl + U* for å se koden.

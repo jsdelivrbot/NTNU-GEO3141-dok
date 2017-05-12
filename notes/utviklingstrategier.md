@@ -1,5 +1,7 @@
 # Strategier og teknikker ved utvikling av webkart med <br/> Open Layers API.
 
+---
+
 Dette dokumentet inneholder en del tips og teknikker som kan være til hjelp ved utvikling av webkart.
 
 - Forutsetning: Vite hvordan WMS- og WMTS-tjenestene virker
@@ -21,12 +23,13 @@ Dette betyr at man må kunne sende et getcapabilities-kall til tjenesten og kunn
 
 Url på egen tjeneste kan hentes ut fra menyvalget __OGC services__ i [ArcGIS Server Manager](https://copernicus.hig.no:6443/arcgis/manager/).
 
-Lagnavn kan hente ut ved hjelp av getcapabilities-kall, f.eks. slik: (#-tegn må byttes ut med og-tegn)
+Lagnavn kan hente ut ved hjelp av getcapabilities-kall, f.eks. slik:
+
 ```ini
 https://copernicus.hig.no:6443/arcgis/services/
 sverrsti/Horten_sverrsti/MapServer/WMSServer?
-service=wms#
-request=getcapabilities#
+service=wms&
+request=getcapabilities&
 version=1.3
 ```
 Se også *Hente ut metadata fra WMS-tjeneste* [her](WMTS-opprette-tjeneste.html).

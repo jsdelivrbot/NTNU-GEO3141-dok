@@ -1,6 +1,6 @@
-# Ukeoppgave for Modul 4 - GML og WFS - PSTools, GISTools, Postgis og FME
+# Ukeoppgave GML og WFS - PSTools, GISTools, Postgis og FME
 
-***
+---
 
 
 ## Mål for oppgaven

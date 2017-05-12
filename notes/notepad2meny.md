@@ -1,5 +1,9 @@
 # Notepad 2 mod
 
+---
+
+## Om Notepad 2
+
 Notepad 2 mod er en modifisert versjon av tekstbehandleren Notepad 2 som igjen er laget for å være en erstatter for Windows Notepad.
 
 ![kontekstmeny](../images/tools/notepad2logo.png)

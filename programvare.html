@@ -3,7 +3,7 @@
 <head>
     <title>programvare</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css"/>
     <style>
 
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -17,6 +17,10 @@ body {
     margin-left: 10%;
     width: 80%;
     max-width: 680px;
+}
+
+section {
+
 }
 
 html, body { overflow-x: initial; }
@@ -35,12 +39,23 @@ html, body { overflow-x: initial; }
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-#content a { text-decoration: underline; color: #20457C; }
-#content a:hover { background-color: #f48a8a; }
-#content a:visited { text-decoration: underline; color: #7C2045; }
+#content a { text-decoration: underline;
+    color: #20457C;
+}
+#content a:hover,
+#content h1:hover,
+#content h2:hover {
+    background-color: #E0E0E0;
+    cursor: pointer;
+    cursor: hand;
+}
+#content a:visited {
+    text-decoration: underline;
+    color: #7C2045;
+}
 
-#content h1, 
-#content h2, 
+#content h1,
+#content h2,
 #content h3,
 #content h4 {
     font-family: 'Yanone Kaffeesatz';
@@ -51,9 +66,6 @@ html, body { overflow-x: initial; }
 }
 
 #content hr {
-    //width: 300px;
-    //margin-left: auto;
-    //margin-right: auto;
     height: 5px;
     background-color:#ccc;
     color:#ccc;
@@ -147,17 +159,22 @@ Programvare |Kommentar|Info |Brukes til
 
     </div>
     <div id="content">
-    
+
         <!-- generated html -->
 
     </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.min.js">
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js">
     </script>
-    <script type="text/javascript" src="script/markdown-it-link-attributes.min.js">
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script type="text/javascript"
+      src="https://cdn.rawgit.com/crookedneighbor/markdown-it-link-attributes/master/dist/markdown-it-link-attributes.min.js"/>
     </script>
     <script>
         var md = markdownit({
-          html: false,
+          html: true,
           linkify: true,
           breaks: true
         });
@@ -165,12 +182,28 @@ Programvare |Kommentar|Info |Brukes til
           target: '_blank',
           rel: 'noopener'
         });
-        var markdownsource = document.getElementById('markdown');
-        document.getElementById("content").innerHTML = md.render(markdownsource.innerHTML);
+        $('#content').html(md.render($('#markdown').html().
+            replace(/&lt;/g, '<').
+            replace(/&gt;/g, '>').
+            replace(/&amp;/g, '&')));
+        $('h2').each(function(){
+           var self = $(this),
+           contents = self.nextUntil('h2'),
+           newWrap = $('<section />').insertAfter(self);
+           newWrap.append(contents);
+        });
+        $('h1').click(function (event) {
+          $('section').toggle();
+        });
+        $('h2, section').click(function (event) {
+              $(event.target).next().toggle();
+        });
     </script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js">
     </script>
     <script>
         hljs.initHighlightingOnLoad();
