@@ -46,9 +46,10 @@
 ## Obligatoriske oppgaver
 
 ## Denne versjonen
-- 2017-05-15 15:02:58 +0200 |Sverre Stikbakke |rawgitlink
+- 2017-05-15 15:20:01 +0200 |Sverre Stikbakke |web subfolders
 ## Tidligere versjoner
 
+- [2017-05-15 15:03:24 +0200 |Sverre Stikbakke |rawgitlink](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/c931a475def6654182a7d0d34b1c5e87e55b453b/)
 - [2017-05-15 14:54:52 +0200 |Sverre Stikbakke |Forbedret mal](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/6091d0bb8d1612e98fc9e5ea5636adbda834dc0e/)
 - [2017-05-12 10:16:27 +0200 |Sverre Stikbakke |CSS/Jquery](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/4e3e429b5d1bb6c16f370c18886f8b3506e7abdb/)
 - [2017-04-27 23:07:57 +0200 |Sverre Stikbakke |Uke 17 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO3141-dok/e3d69f052fdfe7d87a23431076eddddfc67662dd/)
