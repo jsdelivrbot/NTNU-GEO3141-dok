@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WMTS-intro</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css"/>
+    <style>
+
+/*!
+CSS for tables are based on:
+Pure v0.6.2
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+
+html {
+  font-family: 'Droid Serif';
+}
+
+body {
+  margin-left: 10%;
+  width: 80%;
+  max-width: 680px;
+}
+
+#content h1, #content h2, #content h3, #content h4 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #59323C;
+}
+
+#markdown {
+  display: none;
+}
+
+#content h1:hover,
+#content h2:hover,
+#content a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#content a:visited {
+  text-decoration: underline;
+  color: #7C2045;
+}
+
+#content a {
+  text-decoration: underline;
+  color: #20457C; // Bb
+}
+
+#content {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#content hr {
+  height: 5px;
+  background-color: #ccc;
+  color: #ccc;
+  border: 0 none;
+}
+
+#content blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  border-left: 5px solid #ccc;
+}
+
+#content pre {
+  font-family: 'Inconsolata';
+}
+
+#content code {
+  font-family: 'Inconsolata';
+  display: inline-block;
+  overflow-x: auto;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 1em;
+}
+
+#content img {
+  border-style: solid;
+  border-width: 1px;
+  color: #ddd;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 1em;
+}
+
+#content table {
+  /* Remove spacing between table cells (from Normalize.css) */
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #8C6954;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 1em;
+}
+
+#content table caption {
+  font: italic 85%/1 arial, sans-serif;
+  padding: 1em 0;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+#content table td, #content table th {
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  /* to make ths where the title is really long work */
+  padding: 0.5em 1em;
+  /* cell padding */
+  border-width: 0 0 0 1px;
+  border-left: 1px solid #8C6954;
+  /* inner column border */
+}
+
+#content table thead {
+  text-align: left;
+  vertical-align: bottom;
+  background-color: #BFAF80;
+  color: #000;
+}
+
+/* nth-child selector for modern browsers */
+#content table tr:nth-child(2n-1) td {
+  background-color: #F2EEB3;
+}
+
+    </style>
+</head>
+<body>
+    <div id="markdown">
+
+# WMTS, kartflisinndelinger og koordinatsystemer
+
+---
+
+## Kartverkets dekningsområder (extent)
+
+Koordinatsystem	|x	|y	|x	|y
+--|--|--|--|--
+UTM32	|-2000000	|3500000	|3545984	|9045984
+UTM33	|-2500000	|3500000	|3045984	|9045984
+UTM34	|-3000000	|3500000	|2545984	|9045984
+UTM35	|-3500000	|3500000	|2045984	|9045984
+UTM36	|-4000000	|3500000	|1545984	|9045984
+Geografisk|-180	|-90	|180	|90
+Mercator	|20037508.34	|20037508.34	|20037508.34	|20037508.34
+ETRS-LCC	|2100000.2378	|820000.9292	|6300000.4541	|5021872.0731
+ETRS-LAEA	|2426378.0132	|1528101.2618	|6293974.6215	|5446513.5222
+
+
+## Mercator-utstrekningspolygon
+
+```ini
+x             y
+-20037508.34  -20037508.34
+-20037508.34   20037508.34
+ 20037508.34   20037508.34
+ 20037508.34  -20037508.34
+ ```
+## UTM 32-utstrekningspolygon
+
+```ini
+x         y
+-2000000  3500000
+-2000000  9045984
+ 3545984  9045984
+ 3545984  3500000
+```
+
+## UTM 33-utstrekningspolygon
+
+```ini
+x         y
+-2500000  3500000
+-2500000  9045984
+ 3045984  9045984
+ 3045984  3500000
+```
+
+    </div>
+    <div id="content">
+
+        <p> placeholder for javascript generated html </p>
+
+    </div>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script type="text/javascript"
+      src="https://cdn.rawgit.com/crookedneighbor/markdown-it-link-attributes/08f56a53e4fcf0b0271f9d09a1dc77685bbbcdda/dist/markdown-it-link-attributes.min.js"/>
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js">
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js">
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script>
+        var md = markdownit({
+          html: true,
+          linkify: true,
+          breaks: true
+        });
+        md.use(markdownitLinkAttributes, {
+          target: '_blank',
+          rel: 'noopener'
+        });
+        $('#content').html(md.render($('#markdown').html().
+          replace(/&lt;/g, '<').
+          replace(/&gt;/g, '>').
+          replace(/&amp;/g, '&')));
+        $('h2').each(function () {
+          var self = $(this);
+          var contents = self.nextUntil('h2');
+          $(contents).wrapAll('<section />');
+        });
+        $('h1').click(function (event) {
+          $('section').toggle();
+        });
+        $('h2, section').click(function (event) {
+          $(event.target).next().toggle();
+        });
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>

@@ -9,4 +9,4 @@
 # sverre.stikbakke@ntnu.no 11.09.2016
 #
 
-./mdpublish.sh -a -s pure.css
+./mdpublish.sh -a -s pure170515.css -t notes170515.html

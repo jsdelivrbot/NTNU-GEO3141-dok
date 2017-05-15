@@ -25,7 +25,7 @@ body {
   font-weight: normal;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #59323C;
+  color: #337ab7;
 }
 
 #markdown {
@@ -95,7 +95,7 @@ body {
   border-collapse: collapse;
   border-spacing: 0;
   empty-cells: show;
-  border: 1px solid #8C6954;
+  border: 1px solid #cbcbcb;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 1em;
 }
@@ -104,7 +104,7 @@ body {
   font: italic 85%/1 arial, sans-serif;
   padding: 1em 0;
   text-align: center;
-  color: #F5F5F5;
+  color: #000;
 }
 
 #content table td, #content table th {
@@ -115,18 +115,18 @@ body {
   padding: 0.5em 1em;
   /* cell padding */
   border-width: 0 0 0 1px;
-  border-left: 1px solid #8C6954;
+  border-left: 1px solid #cbcbcb;
   /* inner column border */
 }
 
 #content table thead {
   text-align: left;
   vertical-align: bottom;
-  background-color: #BFAF80;
+  background-color: #e0e0e0;
   color: #000;
 }
 
 /* nth-child selector for modern browsers */
 #content table tr:nth-child(2n-1) td {
-  background-color: #F2EEB3;
+  background-color: #f2f2f2;
 }

@@ -9,4 +9,6 @@
 # sverre.stikbakke@ntnu.no 11.09.2016
 #
 
-./mdpublish.sh -a -s vintage-romantic.css
+#./mdpublish.sh -a -s vintage-romantic.css
+
+./mdpublish.sh -a -s vintage170515.css -t notes170515.html

@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>README</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css"/>
+    <style>
+
 /*!
 CSS for tables are based on:
 Pure v0.6.2
@@ -130,3 +138,67 @@ body {
 #content table tr:nth-child(2n-1) td {
   background-color: #F2EEB3;
 }
+
+    </style>
+</head>
+<body>
+    <div id="markdown">
+
+# NTNU-GEO3141-dok
+
+---
+
+Diverse filer til bruk i emnet GEO3141 Infrastrukturer for stedfestet informasjon.
+
+Dette er hovedsaklig websider som presenteres gjennom NTNUs nye læringsplattform, Blackboard Learn. GEO3141 er pilotemne for NTNU på Blackboard våren 2017.
+
+    </div>
+    <div id="content">
+
+        <p> placeholder for javascript generated html </p>
+
+    </div>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script type="text/javascript"
+      src="https://cdn.rawgit.com/crookedneighbor/markdown-it-link-attributes/08f56a53e4fcf0b0271f9d09a1dc77685bbbcdda/dist/markdown-it-link-attributes.min.js"/>
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js">
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js">
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script>
+        var md = markdownit({
+          html: true,
+          linkify: true,
+          breaks: true
+        });
+        md.use(markdownitLinkAttributes, {
+          target: '_blank',
+          rel: 'noopener'
+        });
+        $('#content').html(md.render($('#markdown').html().
+          replace(/&lt;/g, '<').
+          replace(/&gt;/g, '>').
+          replace(/&amp;/g, '&')));
+        $('h2').each(function () {
+          var self = $(this);
+          var contents = self.nextUntil('h2');
+          $(contents).wrapAll('<section />');
+        });
+        $('h1').click(function (event) {
+          $('section').toggle();
+        });
+        $('h2, section').click(function (event) {
+          $(event.target).next().toggle();
+        });
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>
